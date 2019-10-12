@@ -108,15 +108,14 @@ Compatibilitée
 
 Ce plugin est à ces débuts et pour pouvoir ajouter des équipements qui ne sont pas prévus, ou qui ne fonctionnent pas, il faut m'envoyer le fichier sync.json qui se trouve dans le dossier plugins/ewejee/core/js/sync.json
 > **Important**
->	Ce fichier contient toutes les données que eWeLink posède, soit votre IP publique, l'apikey etc... 
->   Je n'ai pas besoin de ces informations presonnels, donc vous pouvez ouvrir ce fichier avec un éditeur de texte pour supprimer ces données.
+>	Ce fichier contient toutes les données que eWeLink possède, soit votre IP publique, l'apikey etc... 
+>   Je n'ai pas besoin de ces informations personnels, donc vous pouvez ouvrir ce fichier avec un éditeur de texte pour supprimer ces données.
 
-Vous pouvez l'envoyer à l'adresse mail suivrante : wn68320@gmail.com
+Vous pouvez l'envoyer à l'adresse mail suivante : wn68320@gmail.com
 
 Je pourrais alors adapter le code afin de le rendre compatible.
 
-Si vous avez des questions, surtout n'hésitez pas à me contacter, le mieux est par mail que je consulte régulèrement.
-
+Si vous avez des questions, surtout n'hésitez pas à me contacter, le mieux est par mail que je consulte régulièrement.
 
 
 
@@ -124,9 +123,9 @@ Changelog
 =========
 
 Changelog détaillé :
-<https://github.com/jeedom/plugin-ewejee/commits/master>
+<https://github.com/foulek57/jeedom-ewejee/blob/master/docs/fr_FR/changelog.md>
 
 Liste des équipements compatibles
 =================================
 
-<https://jeedom.github.io/documentation/#equipment>
+<http://www.google.com>
