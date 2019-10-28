@@ -27,13 +27,14 @@ Suite à cela vous arriverez sur cette page :
 
 ![configuration](../images/configuration.png)
 
-Sur cette page vous avez peu de choses à faire. Il est très vivement recommandé de lancer l’installation des dépendances (même si elles apparaissent OK) et d’attendre 5 minutes avant de lancer le démon.
-En attendant vous pouvez rentrez votre login et mot de passe de l’application eWeLink.
+Sur cette page vous devez rentrez votre login et mot de passe de l’application eWeLink.
+Sauvgardez et cliauez sur verifier la connexion.
+
 ![login](../images/login.png)
 
 > **Important**
 >
-> Il faut impérativement attendre 5 minutes après avoir lancé l'installation des dépendances ET avoir sauvegardé vos identifiants pour lancer le démon. 
+> Il faut impérativement attendre 5 minutes après avoir lancé l'installation des dépendances.
 
 Le plugin
 =========
@@ -90,23 +91,21 @@ Interrupteur / relais / prises
 Vous avez une commande action par « band » qui effectue un on s’il est éteint et un off s’il est allumé et un équipement info qui vous indique s'il est allumé ou éteint.
 Pour l'instant la mise a jour ne se fait que si ont appuie sur une commande action.
 Une mise a jour de l’état automatique sera mis en place plus tard.
+
+> **Info**
+> Il est normal de voir plusieurs channel et etat même si votre equipement n'a qu'un channel, car dans la synchronisation 
+> on récupère tous les paramètres et sonoff a 4 paramètres même pour les equipements qui n'en ont qu'un seul.
+> Vous pouvez suprimmer ceux qui sont en trop.
+
 ![onglet_cmd_switch2](../images/onglet_cmd_switch2.png)
 
 Pour les relais utilisé en "contact sec", l'état de change pas car celui-ci envoi un "push" sur le relai.
-
-Si vous avez une équippement qui n'est pas reconnu, vous aurez par défaut 4 channel et 4 etat, biensur si vous n'avez qu'un channel vous pouvez supprimer tous les autres.
-
-Ifan
---------------
-
-A suivre…
-
-
 
 Compatibilitée
 =========
 
 Ce plugin est à ces débuts et pour pouvoir ajouter des équipements qui ne sont pas prévus, ou qui ne fonctionnent pas, il faut m'envoyer le fichier sync.json qui se trouve dans le dossier plugins/ewejee/core/js/sync.json
+
 > **Important**
 >	Ce fichier contient toutes les données que eWeLink possède, soit votre IP publique, l'apikey etc... 
 >   Je n'ai pas besoin de ces informations personnels, donc vous pouvez ouvrir ce fichier avec un éditeur de texte pour supprimer ces données.
