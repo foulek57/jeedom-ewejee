@@ -28,13 +28,20 @@ Suite à cela vous arriverez sur cette page :
 ![configuration](../images/configuration.png)
 
 Sur cette page vous devez rentrez votre login et mot de passe de l’application eWeLink.
-Sauvgardez et cliauez sur verifier la connexion.
+Sauvgardez et cliquez sur verifier la connexion.
 
 ![login](../images/login.png)
 
 > **Important**
 >
 > Il faut impérativement attendre 5 minutes après avoir lancé l'installation des dépendances.
+
+Si vous avez le méssage "Echec d'authentification, veillez vérifier vos identifiants" : 
+
+- Vérifiez vos identifants, le login doit etre l'adresse mail utilisé dans l'aplication eWeLink.
+- Si vos identifiants sont correct, vérifiez que le démon est bien lancé et que les dépendances sont "OK".
+- Regardez les log "eWeJee_node" dans la section "Logs et surveillance", les dernières lignes vous indique l'érreur, si vous ne la comprenez pas, contactez moi sur community.
+
 
 Le plugin
 =========
@@ -47,7 +54,7 @@ Sur cette page, il vous suffit maintenant de cliquer sur le petit plus au-dessus
 
 ![sync](../images/sync.png)
 
-Une fois que c'est fait vous devez rafraîchir la page et vous verrez apparaître tous les équipements.
+Une fois que c'est fait si vous ne voyez pas les équipements, recharger la page (CTRL + F5).
 
 ![sync2](../images/sync2.png)
 
@@ -57,8 +64,9 @@ Gestion
 
 Dans la partie gestion vous avez :
 -	Synchroniser : Ce bouton sert à synchroniser tous les équipements de l'application eWeLink.
-> **Important**
->	ATTENTION IL FAUT SUPPRIMER TOUT LES EQUIPEMENTS AVANT DE LANCER UNE SYNCHRONISATION !
+> **Info**
+>	Une détection des equipements déjà connus à été ajouté, donc plus besoin de tout supprimer.
+>	Si vous avez un equipement à acutaliser, supprimer le.
 -	Configuration : Pour voir la configuration du plugin…
 
 Mes ewejees
@@ -75,7 +83,7 @@ Vous avez 2 onglets.
 Dans l’onglet équipement vous retrouver : 
 
 - Le nom de l’équipement.
-- L'objet parents .
+- L'objet parent.
 - La catégorie.
 - Une case de commentaire.
 
@@ -88,13 +96,19 @@ Dans l’onglet équipement vous retrouver :
 
 Interrupteur / relais / prises
 ----------------------
-Vous avez une commande action par « band » qui effectue un on s’il est éteint et un off s’il est allumé et un équipement info qui vous indique s'il est allumé ou éteint.
-Pour l'instant la mise a jour ne se fait que si ont appuie sur une commande action.
-Une mise a jour de l’état automatique sera mis en place plus tard.
+Vous avez une commande action par « band » (Channel, cannal) qui effectue un "on" s’il est éteint et un "off" s’il est allumé et un équipement info qui vous indique s'il est allumé ou éteint.
+Vous avez plusieurs moyens de metre a jour les commandes info : 
+
+- Lorsque vous actionner une commande action, cela met a jour automatiquement l'état
+- Vous povuez mettre a jour manuellement avec le bouton suivant : 
+
+![btn_update](../images/btn/update)
+
+Une mise a jour de l’état automatique sera mis en place prochainement.
 
 > **Info**
 > Il est normal de voir plusieurs channel et etat même si votre equipement n'a qu'un channel, car dans la synchronisation 
-> on récupère tous les paramètres et sonoff a 4 paramètres même pour les equipements qui n'en ont qu'un seul.
+> on récupère tous les paramètres et sonoff a 4 paramètres, et ceci même pour les equipements qui n'en ont qu'un seul.
 > Vous pouvez suprimmer ceux qui sont en trop.
 
 ![onglet_cmd_switch2](../images/onglet_cmd_switch2.png)
