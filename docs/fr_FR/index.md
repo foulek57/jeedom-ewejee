@@ -8,6 +8,10 @@ Description
 Ce plugin à pour but d’intégrer à Jeedom TOUT vos équipements compatible eWeLink sans les flasher.
 Grace à un bouton de synchronisation, un clic et tout vous équipements sont importé dans Jeedom.
 
+> **Info**
+>
+> Le pugin passe par le cloud eWeLink
+
 ![ewejee icon](../images/ewejee_icon.png)
 
 Configuration
@@ -38,6 +42,7 @@ Sauvgardez et cliquez sur verifier la connexion.
 
 Si vous avez le méssage "Echec d'authentification, veillez vérifier vos identifiants" : 
 
+- Le mot de passe ne peut pas contenir de signe "$".
 - Vérifiez vos identifants, le login doit etre l'adresse mail utilisé dans l'aplication eWeLink.
 - Si vos identifiants sont correct, vérifiez que le démon est bien lancé et que les dépendances sont "OK".
 - Regardez les log "eWeJee_node" dans la section "Logs et surveillance", les dernières lignes vous indique l'érreur, si vous ne la comprenez pas, contactez moi sur community.
@@ -97,14 +102,12 @@ Dans l’onglet équipement vous retrouver :
 Interrupteur / relais / prises
 ----------------------
 Vous avez une commande action par « band » (Channel, cannal) qui effectue un "on" s’il est éteint et un "off" s’il est allumé et un équipement info qui vous indique s'il est allumé ou éteint.
-Vous avez plusieurs moyens de metre a jour les commandes info : 
+Vous avez plusieurs moyens de metre à jour les commandes info : 
 
-- Lorsque vous actionner une commande action, cela met a jour automatiquement l'état
-- Vous povuez mettre a jour manuellement avec le bouton suivant : 
+- La mise a jour se fait automatiquement dès qu'un changement d'état est éffectué (même en allumant un interrupteur sans passer par l'appli ou le plugin par exemple)
+- Vous povuez mettre à jour manuellement avec le bouton suivant : 
 
 ![btn_update](../images/btn/update)
-
-Une mise a jour de l’état automatique sera mis en place prochainement.
 
 > **Info**
 > Il est normal de voir plusieurs channel et etat même si votre equipement n'a qu'un channel, car dans la synchronisation 
@@ -138,7 +141,7 @@ Changelog
 Changelog détaillé :
 <https://github.com/foulek57/jeedom-ewejee/blob/master/docs/fr_FR/changelog.md>
 
-Liste des équipements compatibles
+Liste des équipements compatibles à 100%
 =================================
 
 <http://www.google.com>
