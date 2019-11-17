@@ -12,6 +12,12 @@ Grace à un bouton de synchronisation, un clic et tout vous équipements sont im
 >
 > Le pugin passe par le cloud eWeLink
 
+> ** IMPORTANT **
+> eWeLink n'accepte qu'une seul connexion pas compte, donc dès que vous lancer le plugin, cela va déconnecter votre smartphone.
+> Pour palier à cela, il est conseillé de faire une compte eWeLink pour Jeedom, vous pouvez partager vos équipements entre compte
+> eWeLink.
+
+
 ![ewejee icon](../images/ewejee_icon.png)
 
 Configuration
