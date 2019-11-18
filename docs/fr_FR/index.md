@@ -1,6 +1,9 @@
 
 eWeJee
 ==============================
+MAJ V1.1 
+Attention il faut faire l'instalation des dependances (Attendre 5 à 10 minutes), supprimer tous vos equipements et refaire une synchronisation !
+Dans cet ordre precis !
 
 Description
 -----------
