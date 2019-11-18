@@ -17,6 +17,7 @@
 	- Ampères
 	- Voltage
 	- POW
+	- Ajout de oa compatibilitée des ifan02 et ifan03
 
 - Sortie stable
 - Beta V0.0.1
