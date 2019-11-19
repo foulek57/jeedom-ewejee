@@ -1,9 +1,11 @@
 
 eWeJee
 ==============================
-MAJ V1.1 (Beta)
-Attention il faut faire l'instalation des dependances (Attendre 5 à 10 minutes), supprimer tous vos equipements et refaire une synchronisation !
-Dans cet ordre precis !
+
+### <i class="far fa-exclamation-triangle"></i> MAJ V1.1 (Beta) ###
+
+# Attention, si vous passer à la version V1.1 il faut faire l'instalation des dependances (Attendre 5 à 10 minutes), supprimer tous vos equipements et refaire une synchronisation !
+# Dans cet ordre precis !
 
 Description
 -----------
@@ -15,7 +17,8 @@ Grace à un bouton de synchronisation, un clic et tout vous équipements sont im
 >
 > Le pugin passe par le cloud eWeLink
 
-> ** IMPORTANT **
+> **IMPORTANT**
+> 
 > eWeLink n'accepte qu'une seul connexion par compte, donc dès que vous lancer le plugin, cela va déconnecter votre smartphone.
 > Pour palier à cela, il est conseillé de faire une compte eWeLink pour Jeedom, vous pouvez partager vos équipements entre compte
 > eWeLink.
@@ -54,7 +57,7 @@ Si vous avez le méssage "Echec d'authentification, veillez vérifier vos identi
 - Le mot de passe ne peut pas contenir de signe "$".
 - Vérifiez vos identifants, le login doit etre l'adresse mail utilisé dans l'aplication eWeLink.
 - Si vos identifiants sont correct, vérifiez que le démon est bien lancé et que les dépendances sont "OK".
-- Regardez les log "eWeJee_node" dans la section "Logs et surveillance", les dernières lignes vous indique l'érreur, si vous ne la comprenez pas, contactez moi sur community.
+- Regardez les log "eWeJee_node" dans la section "Logs et surveillance", les dernières lignes vous indique l'érreur, si vous ne la comprenez pas, contactez moi sur community ou GitHub.
 
 
 Le plugin
@@ -79,6 +82,7 @@ Gestion
 Dans la partie gestion vous avez :
 -	Synchroniser : Ce bouton sert à synchroniser tous les équipements de l'application eWeLink.
 > **Info**
+> 
 >	Une détection des equipements déjà connus à été ajouté, donc plus besoin de tout supprimer.
 >	Si vous avez un equipement à acutaliser, supprimer le.
 -	Configuration : Pour voir la configuration du plugin…
@@ -104,6 +108,7 @@ Dans l’onglet équipement vous retrouver :
 ![onglet_equip](../images/onglet_equip.png)
 
 > **Important**
+> 
 > Le nom de l’équipement ne doit pas être changé il doit correspondre au nom que vous avez dans l’application.
 > La case de commentaire peut-être utilisé comme vous le souhaitez, cela vous permet de mettre un commentaire à votre équipement.
 
@@ -114,43 +119,60 @@ Vous avez une commande action par « band » (Channel, cannal) qui effectue un "
 Vous avez plusieurs moyens de metre à jour les commandes info : 
 
 - La mise a jour se fait automatiquement dès qu'un changement d'état est éffectué (même en allumant un interrupteur sans passer par l'appli ou le plugin par exemple)
-- Vous povuez mettre à jour manuellement avec le bouton suivant : 
-
-![btn_update](../images/btn/update)
+- Une mise à jour automatique est prévu toute les heures.
+- Pour les relais utilisé en "contact sec", l'état de change pas car celui-ci envoi un "push" sur le relai.
 
 > **Info**
+> 
 > Il est normal de voir plusieurs channel et etat même si votre equipement n'a qu'un channel, car dans la synchronisation 
 > on récupère tous les paramètres et sonoff a 4 paramètres, et ceci même pour les equipements qui n'en ont qu'un seul.
-> Vous pouvez suprimmer ceux qui sont en trop.
+> Vous pouvez suprimmer ceux qui sont en trop, sauf si le nom est "Ne pas suppr.", dans ce cas cet équipement est obligatoire pour le fonctionnement, vous pouvez décocher la case "Afficher" pour l'enlever.
+
+Commandes 
+----------
 
 ![onglet_cmd_switch2](../images/onglet_cmd_switch2.png)
 
-Pour les relais utilisé en "contact sec", l'état de change pas car celui-ci envoi un "push" sur le relai.
+- Nom : Le nom de ton équipement (Modifiable).
+- Type : Le type de commande.
+- Options : Permet d'afficher ou de cacher la commande, et d'historiser les commandes info.
+- Unitée : Permet de mettre une unitée (°C, %...).
+- Action : Acces à la configuration de la commande, ou du test.
 
 Compatibilitée
 =========
 
-Ce plugin est à ces débuts et pour pouvoir ajouter des équipements qui ne sont pas prévus, ou qui ne fonctionnent pas, il faut m'envoyer le fichier sync.json qui se trouve dans le dossier plugins/ewejee/core/js/sync.json
+Le plugin est fait de façon a être compatible avec la majorité des équipements.
+Une adaptation doit être faites pour certains équipements, comme par exemple l'ifan.
 
-> **Important**
->	Ce fichier contient toutes les données que eWeLink possède, soit votre IP publique, l'apikey etc... 
->   Je n'ai pas besoin de ces informations personnels, donc vous pouvez ouvrir ce fichier avec un éditeur de texte pour supprimer ces données.
+Voici la liste des équipements compatible à 100% :
 
-Vous pouvez l'envoyer à l'adresse mail suivante : wn68320@gmail.com
+Sonoff : 
+=======
 
-Je pourrais alors adapter le code afin de le rendre compatible.
+- [x] ifan02/ifan03
+- [x] TH10/TH16
+- [x] Basic R2
+- [x] Basic R3
+- [x] Dual R2
+- [x] Mini
+- [x] POWR2
+- [x] 4CHR2/PROR2
+- [x] IW100/101
+- [x] TX SWITCH
+- [x] S20
+- [x] S26
+- [x] S31
+- [x] S55
+- [ ] 433 RF Bridge (J'ai besoin de bêta testeur)
+- [x] Relais DIY
 
-Si vous avez des questions, surtout n'hésitez pas à me contacter, le mieux est par mail que je consulte régulièrement.
+Si votre "quipement n'est pas dans la liste, cela ne veut pas dire qu'il ne sera pas supporté par le plugin, cette liste est celle des équipements testé.
 
-
+Si vous remarque qu'un de vos équipements n'est pas fonctionnel ou ne fonctionne pas correctement, vous pouvez me contacter sur GitHub (de préférence).
 
 Changelog
 =========
 
 Changelog détaillé :
 <https://github.com/foulek57/jeedom-ewejee/blob/master/docs/fr_FR/changelog.md>
-
-Liste des équipements compatibles à 100%
-=================================
-
-<http://www.google.com>
