@@ -3,9 +3,15 @@
 
 
 - --/--/---- : V1.1.2 (Beta)
-	- [ ] Mise en place d'une fonction de traitement d'alèrtes (date et heure)
+	- [ ] Mise en place d'une fonction de traitement d'alèrtes (date et heure).
+	- [x] Ajout d'un chat en ligne pour le support : http://www.domometz.fr/index.php
+	- [ ] Ajout d'un bouton pour ajouter une commande "action" par channel pour avoir un "ON" et un "OFF" pour les assistant (Google, Alexa....).
+	- [ ] Récupération des noms saisie dans l'aplication eWeLink (En attente de beta testeurs...Envoyez moi un méssage !!).
+	- [ ] Ajout de la reconaissance de la marque.
+	- [ ] Ajout d'une photo de l'équipement.
 
-- --/--/---- : Passage de la V1.1.1 en stable.
+
+- 20/11/2019 : Passage de la V1.1.1 en stable.
 
 - 19/11/2019 : V1.1.1 (Bêta)
 	- [x] Ajout de la reconaissance du modèle.
