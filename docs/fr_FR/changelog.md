@@ -9,7 +9,10 @@
 	- [ ] Récupération des noms saisie dans l'aplication eWeLink (En attente de beta testeurs...Envoyez moi un méssage !!).
 	- [ ] Ajout de la reconaissance de la marque.
 	- [ ] Ajout d'une photo de l'équipement.
+	- [x] Suppression du fichier d'installation apres installation.
 
+- 21/11/2019 V1.1.1a (Bêta et Stable)
+    - [x] Mise à jour pour correction des bug.
 
 - 20/11/2019 : Passage de la V1.1.1 en stable.
 
