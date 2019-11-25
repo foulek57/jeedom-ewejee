@@ -6,10 +6,17 @@
 	- [ ] Mise en place d'une fonction de traitement d'alèrtes (date et heure).
 	- [x] Ajout d'un chat en ligne pour le support : http://www.domometz.fr/index.php
 	- [ ] Ajout d'un bouton pour ajouter une commande "action" par channel pour avoir un "ON" et un "OFF" pour les assistant (Google, Alexa....).
-	- [ ] Récupération des noms saisie dans l'aplication eWeLink (En attente de beta testeurs...Envoyez moi un méssage !!).
+	- [ ] ...Récupération des noms saisie dans l'aplication eWeLink (En attente de beta testeurs...Envoyez moi un méssage !!).
 	- [ ] Ajout de la reconaissance de la marque.
 	- [ ] Ajout d'une photo de l'équipement.
 	- [x] Suppression du fichier d'installation apres installation.
+	- [ ] Amélioration su script de dépendances.
+
+- ../11/2019 V1.1.1b (Stable) : Attente d'info des bêta testeurs...
+    - [ ] Mise à jour pour correction des bug.
+
+- 25/11/2019 V1.1.1b (Bêta)
+    - [x] Mise à jour pour correction des bug.
 
 - 21/11/2019 V1.1.1a (Bêta et Stable)
     - [x] Mise à jour pour correction des bug.
