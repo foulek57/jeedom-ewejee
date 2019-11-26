@@ -1,16 +1,19 @@
 # Changelog
 
+- A venir : 
+	- [ ] Mise en place d'une fonction de traitement d'alèrtes (date et heure).
+	- [ ] ...Récupération des noms saisie dans l'aplication eWeLink (J'ai besoins de bêta testeur pour ceci...Envoyez moi un message !!).
+	- [ ] Ajout d'une photo de l'équipement.
+	- [ ] Amélioration du script d'installation des dépendances.
+	- [ ] Ajout de la compatibilitée du RF Bridge (J'ai besoins de bêta testeur pour ceci...Envoyez moi un message !!)
+
 
 
 - --/--/---- : V1.1.2 (Bêta)
-	- [ ] Mise en place d'une fonction de traitement d'alèrtes (date et heure).
 	- [x] Ajout d'un chat en ligne pour le support : http://www.domometz.fr/index.php
 	- [ ] Ajout d'un bouton pour ajouter une commande "action" par channel pour avoir un "ON" et un "OFF" pour les assistant (Google, Alexa....).
-	- [ ] ...Récupération des noms saisie dans l'aplication eWeLink (En attente de beta testeurs...Envoyez moi un méssage !!).
-	- [ ] Ajout de la reconaissance de la marque.
-	- [ ] Ajout d'une photo de l'équipement.
+	- [ ] Ajout de la reconaissance de la marque et du modèle.
 	- [x] Suppression du fichier d'installation apres installation.
-	- [ ] Amélioration su script de dépendances.
 	- [ ] Ajout du "Ultrasonic Humidifier" AGW-D7 (WI16) *Merci à kubico29*
 
 - 26/11/2019 V1.1.1b (Stable)
