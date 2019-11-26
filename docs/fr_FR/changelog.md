@@ -2,7 +2,7 @@
 
 
 
-- --/--/---- : V1.1.2 (Beta)
+- --/--/---- : V1.1.2 (Bêta)
 	- [ ] Mise en place d'une fonction de traitement d'alèrtes (date et heure).
 	- [x] Ajout d'un chat en ligne pour le support : http://www.domometz.fr/index.php
 	- [ ] Ajout d'un bouton pour ajouter une commande "action" par channel pour avoir un "ON" et un "OFF" pour les assistant (Google, Alexa....).
@@ -11,9 +11,10 @@
 	- [ ] Ajout d'une photo de l'équipement.
 	- [x] Suppression du fichier d'installation apres installation.
 	- [ ] Amélioration su script de dépendances.
+	- [ ] Ajout du "Ultrasonic Humidifier" AGW-D7 (WI16) *Merci à kubico29*
 
-- ../11/2019 V1.1.1b (Stable) : Attente d'info des bêta testeurs...
-    - [ ] Mise à jour pour correction des bug.
+- 26/11/2019 V1.1.1b (Stable)
+    - [x] Mise à jour pour correction des bug.
 
 - 25/11/2019 V1.1.1b (Bêta)
     - [x] Mise à jour pour correction des bug.
