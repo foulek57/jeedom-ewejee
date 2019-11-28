@@ -10,9 +10,9 @@
 
 
 - --/--/---- : V1.1.2 (Bêta)
-	- [x] Ajout d'un chat en ligne pour le support : http://www.domometz.fr/index.php
-	- [ ] Ajout d'un bouton pour ajouter une commande "action" par channel pour avoir un "ON" et un "OFF" pour les assistant (Google, Alexa....).
-	- [ ] Ajout de la reconaissance de la marque et du modèle.
+	- [x] Ajout d'un chat en ligne pour le support : http://www.domometz.fr/index.php *(N'oubliez pas de laisser votre adresse mail pour être avertis des réponses)*
+	- [x] Ajout d'un bouton pour ajouter une commande "action" par channel pour avoir un "ON" et un "OFF" pour les assistant (Google, Alexa....).
+	- [x] Ajout de la reconaissance de la marque et du modèle.
 	- [x] Suppression du fichier d'installation apres installation.
 	- [ ] Ajout du "Ultrasonic Humidifier" AGW-D7 (WI16) *Merci à kubico29*
 
