@@ -5,16 +5,16 @@
 	- [ ] ...Récupération des noms saisie dans l'aplication eWeLink (J'ai besoins de bêta testeur pour ceci...Envoyez moi un message !!).
 	- [ ] Ajout d'une photo de l'équipement.
 	- [ ] Amélioration du script d'installation des dépendances.
-	- [ ] Ajout de la compatibilitée du RF Bridge (J'ai besoins de bêta testeur pour ceci...Envoyez moi un message !!)
+	- [ ] Ajout du "Ultrasonic Humidifier" AGW-D7 (WI16) *Merci à kubico29*
 
 
 
-- --/--/---- : V1.1.2 (Bêta)
+- 30/11/2019 : V1.1.2 (Bêta)
 	- [x] Ajout d'un chat en ligne pour le support : http://www.domometz.fr/index.php *(N'oubliez pas de laisser votre adresse mail pour être avertis des réponses)*
 	- [x] Ajout d'un bouton pour ajouter une commande "action" par channel pour avoir un "ON" et un "OFF" pour les assistant (Google, Alexa....).
 	- [x] Ajout de la reconaissance de la marque et du modèle.
 	- [x] Suppression du fichier d'installation apres installation.
-	- [ ] Ajout du "Ultrasonic Humidifier" AGW-D7 (WI16) *Merci à kubico29*
+	- [x] Ajout de la compatibilitée 100% du RF Bridge *(Un grand merci à Michel !)*
 
 - 26/11/2019 V1.1.1b (Stable)
     - [x] Mise à jour pour correction des bug.
