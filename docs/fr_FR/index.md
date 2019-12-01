@@ -151,6 +151,7 @@ Sonoff :
 =======
 
 - [x] ifan02/ifan03
+- [x] RF Bridge (beta)
 - [x] TH10/TH16
 - [x] Basic R2
 - [x] Basic R3
