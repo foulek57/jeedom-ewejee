@@ -168,7 +168,7 @@ Sonoff :
 - [ ] 433 RF Bridge (J'ai besoin de bêta testeur)
 - [x] Relais DIY
 
-Si votre "quipement n'est pas dans la liste, cela ne veut pas dire qu'il ne sera pas supporté par le plugin, cette liste est celle des équipements testé.
+Si votre "equipement n'est pas dans la liste, cela ne veut pas dire qu'il ne sera pas supporté par le plugin, cette liste est celle des équipements testé.
 
 Si vous remarque qu'un de vos équipements n'est pas fonctionnel ou ne fonctionne pas correctement, vous pouvez me contacter sur GitHub (de préférence).
 

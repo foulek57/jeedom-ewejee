@@ -6,8 +6,10 @@
 	- [ ] Ajout d'une photo de l'équipement.
 	- [ ] Amélioration du script d'installation des dépendances.
 	- [ ] Ajout du "Ultrasonic Humidifier" AGW-D7 (WI16) *Merci à kubico29*
+	- [ ] Résolution du problème d'installation sur Debian 9
 
 
+- 02/12/2019 : Passage de la V1.1.2 en stable.
 
 - 30/11/2019 : V1.1.2 (Bêta)
 	- [x] Ajout d'un chat en ligne pour le support : http://www.domometz.fr/index.php *(N'oubliez pas de laisser votre adresse mail pour être avertis des réponses)*
@@ -15,6 +17,7 @@
 	- [x] Ajout de la reconaissance de la marque et du modèle.
 	- [x] Suppression du fichier d'installation apres installation.
 	- [x] Ajout de la compatibilitée 100% du RF Bridge *(Un grand merci à Michel !)*
+	- [x] Modification du type de données du sonoff pow.
 
 - 26/11/2019 V1.1.1b (Stable)
     - [x] Mise à jour pour correction des bug.
