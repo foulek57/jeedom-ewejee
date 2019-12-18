@@ -7,6 +7,7 @@
 	- [ ] Amélioration du script d'installation des dépendances.
 	- [ ] Ajout du "Ultrasonic Humidifier" AGW-D7 (WI16) *Merci à kubico29*
 	- [ ] Résolution du problème d'installation sur Debian 9
+	- [ ] Ajout de la possibilitée de modifier le port du localhost *Merci à Vincent*
 
 
 - 02/12/2019 : Passage de la V1.1.2 en stable.
