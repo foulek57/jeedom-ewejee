@@ -3,18 +3,21 @@
 - A venir : 
 	- [ ] Mise en place d'une fonction de traitement d'alèrtes (date et heure).
 	- [ ] ...Récupération des noms saisie dans l'aplication eWeLink (J'ai besoins de bêta testeur pour ceci...Envoyez moi un message !!).
-	- [ ] Ajout d'une photo de l'équipement.
-	- [ ] Amélioration du script d'installation des dépendances.
-	- [ ] Ajout du "Ultrasonic Humidifier" AGW-D7 (WI16) *Merci à kubico29*
-	- [ ] Résolution du problème d'installation sur Debian 9
-	- [ ] Ajout de la possibilitée de modifier le port du localhost *Merci à Vincent*
+	- [ ] Ajout d'une photo de l'équipement(Une autre partie)
+	
+- 22/12/2019 : V1.1.3 (Bêta)
+	- [x] Ajout du "Ultrasonic Humidifier" AGW-D7 (WI16) *Merci à kubico29*
+	- [x] Amélioration du script d'installation des dépendances.
+	- [x] Résolution du problème d'installation sur Debian 9
+	- [x] Ajout de la possibilitée de modifier le port du localhost *Merci à Vincent*
+	- [x] Ajout d'un bouton pour ajouter une commande "action" par channel pour avoir un "ON" et un "OFF" pour les assistant (Google, Alexa....).
+	- [ ] Ajout d'une photo de l'équipement(Une partie)
 
 
 - 02/12/2019 : Passage de la V1.1.2 en stable.
 
 - 30/11/2019 : V1.1.2 (Bêta)
 	- [x] Ajout d'un chat en ligne pour le support : http://www.domometz.fr/index.php *(N'oubliez pas de laisser votre adresse mail pour être avertis des réponses)*
-	- [x] Ajout d'un bouton pour ajouter une commande "action" par channel pour avoir un "ON" et un "OFF" pour les assistant (Google, Alexa....).
 	- [x] Ajout de la reconaissance de la marque et du modèle.
 	- [x] Suppression du fichier d'installation apres installation.
 	- [x] Ajout de la compatibilitée 100% du RF Bridge *(Un grand merci à Michel !)*
