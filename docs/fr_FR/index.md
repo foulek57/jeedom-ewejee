@@ -2,11 +2,6 @@
 eWeJee
 ==============================
 
-### <i class="far fa-exclamation-triangle"></i> MAJ V1.1 (Beta) ###
-
-# Attention, si vous passer à la version V1.1 il faut faire l'instalation des dependances (Attendre 5 à 10 minutes), supprimer tous vos equipements et refaire une synchronisation !
-# Dans cet ordre precis !
-
 Description
 -----------
 

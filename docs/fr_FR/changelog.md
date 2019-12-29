@@ -3,7 +3,8 @@
 - A venir : 
 	- [ ] Mise en place d'une fonction de traitement d'alèrtes (date et heure).
 	- [ ] ...Récupération des noms saisie dans l'aplication eWeLink (J'ai besoins de bêta testeur pour ceci...Envoyez moi un message !!).
-	- [ ] Ajout d'une photo de l'équipement(Une autre partie)
+	- [ ] Ajout d'une photo de l'équipement
+
 	
 - 22/12/2019 : V1.1.3 (Bêta)
 	- [x] Ajout du "Ultrasonic Humidifier" AGW-D7 (WI16) *Merci à kubico29*
@@ -11,7 +12,6 @@
 	- [x] Résolution du problème d'installation sur Debian 9
 	- [x] Ajout de la possibilitée de modifier le port du localhost *Merci à Vincent*
 	- [x] Ajout d'un bouton pour ajouter une commande "action" par channel pour avoir un "ON" et un "OFF" pour les assistant (Google, Alexa....).
-	- [ ] Ajout d'une photo de l'équipement(Une partie)
 
 
 - 02/12/2019 : Passage de la V1.1.2 en stable.
