@@ -5,6 +5,7 @@
 	- [ ] ...Récupération des noms saisie dans l'aplication eWeLink (J'ai besoins de bêta testeur pour ceci...Envoyez moi un message !!).
 	- [ ] Ajout d'une photo de l'équipement
 
+- 05/01/2019 : V1.1.3 (Stable)
 	
 - 22/12/2019 : V1.1.3 (Bêta)
 	- [x] Ajout du "Ultrasonic Humidifier" AGW-D7 (WI16) *Merci à kubico29*
