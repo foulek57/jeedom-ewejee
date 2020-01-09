@@ -3,7 +3,12 @@
 - A venir : 
 	- [ ] Mise en place d'une fonction de traitement d'alèrtes (date et heure).
 	- [ ] ...Récupération des noms saisie dans l'aplication eWeLink (J'ai besoins de bêta testeur pour ceci...Envoyez moi un message !!).
-	- [ ] Ajout d'une photo de l'équipement
+	- [ ] Ajout d'une photo de l'(équipement)
+	- [ ] Mise en place d'un bouton ON (Qui ne fera que on) et OFF (Qui ne fera que off) en remplacement du ON/OFF actuel
+	- [ ] Amélioration de la réactivitée ON/OFF (Moins d'une demi-seconde suivant la puissance de votre machine) *Il faudra refaire une synchronisation*
+	- [ ] Correction des bogues sur l'ifan (Merci de me faire remonter les problèmes que vous rencontrez)
+	- [ ] Amélioration de la réactivitée sur l'iFan.
+
 
 - 05/01/2019 : V1.1.3 (Stable)
 	
