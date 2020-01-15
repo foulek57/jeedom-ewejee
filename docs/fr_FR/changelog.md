@@ -4,13 +4,14 @@
 	- [ ] Mise en place d'une fonction de traitement d'alèrtes (date et heure).
 	- [ ] ...Récupération des noms saisie dans l'aplication eWeLink (J'ai besoins de bêta testeur pour ceci...Envoyez moi un message !!).
 	- [ ] Ajout d'une photo de l'(équipement)
-
-- ../../.... : V1.1.5 (Bêta)
 	- [ ] Ajout de la compatibilitée de l'ampoule B1 *en developpement*
+
+
+- 16/01/2019 : V1.1.5 (Bêta)
 	- [x] Récupération de l'adresse ip et port interne et externe
 	- [x] Ajout de la possibilitée de faire tourner le plugin en SSL (https) *Pour pouvoir fermer le port 80*
-  	- [ ] Correction des bogues sur l'ifan (Merci de me faire remonter les problèmes que vous rencontrez)
-	- [ ] Amélioration de la réactivitée sur l'iFan.
+  	- [x] Correction des bogues sur l'ifan.
+	- [x] Amélioration de la réactivitée sur l'iFan.
 
 - 14/01/2019 : V1.1.4 (Stable)
 
