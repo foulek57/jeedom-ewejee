@@ -12,6 +12,8 @@
 	- [x] Ajout de la possibilitée de faire tourner le plugin en SSL (https) *Pour pouvoir fermer le port 80*
   	- [x] Correction des bogues sur l'ifan.
 	- [x] Amélioration de la réactivitée sur l'iFan.
+	- [x] Ajout du changement de couleur du "Ultrasonic Humidifier" AGW-D7 (WI16) *Merci à kubico29*
+
 
 - 14/01/2019 : V1.1.4 (Stable)
 
