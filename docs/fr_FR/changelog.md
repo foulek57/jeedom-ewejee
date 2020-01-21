@@ -5,9 +5,17 @@
 	- [ ] ...Récupération des noms saisie dans l'aplication eWeLink (J'ai besoins de bêta testeur pour ceci...Envoyez moi un message !!).
 	- [ ] Ajout d'une photo de l'(équipement)
 	- [ ] Ajout de la compatibilitée de l'ampoule B1 *en developpement*
+	- [ ] Ajout d’un bouton pour forcer la remonté des informations du Sonoff POW
+	- [ ] MAJ Documentation pour POW
+	- [ ] Ajout d’un cron 5/10/15/30, 1H ou journalier pour programmer la remonter des infos du Sonoff POW configurable dans la configuration de l’équipement
+	- [ ] Ajout d'une détection si l'equipement n'est plus connecté.
 
 
-- 16/01/2019 : V1.1.5 (Bêta)
+- ../../.... ; V1.1.6 (Bêta)
+
+- 20/01/2020 : V1.1.5 Version stable
+
+- 16/01/2020 : V1.1.5 (Bêta)
 	- [x] Récupération de l'adresse ip et port interne et externe
 	- [x] Ajout de la possibilitée de faire tourner le plugin en SSL (https) *Pour pouvoir fermer le port 80*
   	- [x] Correction des bogues sur l'ifan.
