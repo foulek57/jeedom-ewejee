@@ -12,7 +12,7 @@
 	- [ ] MAJ Documentation pour POW
 	- [x] Ajout d’un cron 5/10/15/30, 1H ou journalier pour programmer la remonter des infos du Sonoff POW configurable dans la configuration de l’équipement
 	- [x] Ajout d'une détection si l'equipement est connecté.
-	- [ ] Ajout d'une détection si l'équipement n'esst plus connecté.
+	- [ ] Ajout d'une détection si l'équipement n'est plus connecté.
 	- [ ] Vérification si l'équipement est en ligne avant d'envoyer une commande.
 
 
