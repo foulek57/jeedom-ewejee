@@ -3,18 +3,21 @@
 - A venir : 
 	- [ ] Mise en place d'une fonction de traitement d'alèrtes (date et heure).
 	- [ ] ...Récupération des noms saisie dans l'aplication eWeLink (J'ai besoins de bêta testeur pour ceci...Envoyez moi un message !!).
+	- [ ] Ajout des stat du POW sur le mois (Final)
+	- [ ] Ajout KingArt KING-Q4
 
 
-- ../../.... ; V1.1.6 (Bêta)
+
+- 08/01/2020 : V1.1.6 (Bêta)
 	- [x] Ajout d’un bouton pour forcer la remonté des informations du Sonoff POW
 	- [ ] MAJ Documentation pour POW
 	- [x] Ajout d’un cron 5/10/15/30, 1H ou journalier pour programmer la remonter des infos du Sonoff POW configurable dans la configuration de l’équipement
-	- [ ] Ajout d'une détection si l'equipement est connecté.
-	- [ ] Ajout d'une détection si l'équipement n'est plus connecté.
+	- [x] Ajout d'une détection si l'equipement est connecté.
+	- [x] Ajout d'une détection si l'équipement n'est plus connecté.
 	- [ ] Vérification si l'équipement est en ligne avant d'envoyer une commande.
 	- [x] Ajout d'une photo de l'équipement (Si la votre n'y est pas, merci de m'envoyer le model inscrit dans la configuration du plugin)
 	- [x] Ajout de la compatibilitée de l'ampoule B1 
-	- [ ] Ajout des stat du POW sur le mois
+	- [x] Ajout des stat du POW sur le mois (test)
 	- [x] Nétoyage du script serveur
 	- [x] Relance automatique du serveur s'il se ferme
 	- [x] Mise à jour du script d'installation des dépendances
