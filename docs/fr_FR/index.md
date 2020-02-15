@@ -26,6 +26,14 @@ Le plugin est conçu pour être utilisé sans avoir de connaissances particuliè
 
 Je vous indique également le device id et l'apikey si vous souhaitez les piloter en LAN *En cours de dev*
 
+**IMPORTANT**
+=========
+
+Si vous rencontrez un problème avec le plugin, veuillez créer un nouveau sujet sur <http://community.jeedom.com>
+Veuillez donner le maximum de détail et au minimum les logs
+Pour savoir comment envoyer des logs sur le community Jeedom, @akenad l’a expliqué dans un de ses “Flash” ici :
+<https://community.jeedom.com/t/2440/15>
+
  
 
 > **Info** 
@@ -127,7 +135,7 @@ Si vous avez une erreur qui vous demande de vérifier le port, vérifiez la conf
  
 
 Le plugin 
-========= 
+--------- 
 
  
 
@@ -191,7 +199,7 @@ Affiche tous vos équipements.
 
  
 
-Configuration d’un ewejee 
+Configuration d’un eWeJee 
 ============= 
 
  
@@ -237,7 +245,7 @@ Dans l’onglet équipement vous retrouver :
  
 
 Interrupteur / relais / prises 
----------------------- 
+=============================== 
 
 Vous avez deux commandes action par « band » (Channel, canal) qui effectue un "on" et un "off" et une commande info qui vous indique s'il est allumé ou éteint. 
 
@@ -264,7 +272,7 @@ La commande info n’est pas binaire.
  
 
 Commandes  
----------- 
+========= 
 
  
 
@@ -285,7 +293,7 @@ Commandes
  
 
 Compatibilité 
-========= 
+------------- 
 
  
 
@@ -300,7 +308,7 @@ Voici la liste des équipements compatible à 100% :
  
 
 Sonoff :  
-------- 
+========= 
 
  
 
@@ -347,6 +355,7 @@ Si vous remarquez qu'un de vos équipements n'est pas fonctionnel ou ne fonction
 Équipements spécifiques 
 
 Sonoff POW 
+==========
 
 Le POW a une commande supplémentaire permettant de faire une remontée des informations de consommation, avec ce bouton, les informations seront remonté pendant 1 minute. 
 
@@ -367,6 +376,7 @@ Cette information est affiché sous forme de tableau dans l’onglet « Histor
 Si vous avez des suggestions je serrais ravi de les lire ! 
 
 Sonoff ifan 
+===========
 
 L'ifan est également spécifique, vous disposez de 4 commandes d'allumage et d'extinction et de 3 commandes pour les 3 vitesses. 
 
