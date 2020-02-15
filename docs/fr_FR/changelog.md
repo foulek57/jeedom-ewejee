@@ -3,12 +3,41 @@
 - A venir : 
 	- [ ] Mise en place d'une fonction de traitement d'alèrtes (date et heure).
 	- [ ] ...Récupération des noms saisie dans l'aplication eWeLink (J'ai besoins de bêta testeur pour ceci...Envoyez moi un message !!).
-	- [ ] Ajout d'une photo de l'(équipement)
-	- [ ] Correction des bogues sur l'ifan (Merci de me faire remonter les problèmes que vous rencontrez)
-	- [ ] Amélioration de la réactivitée sur l'iFan.
+	- [ ] Ajout des stat du POW sur le mois (Final)
+	- [ ] Ajout KingArt KING-Q4
 
 
-- 09/01/2019 : Pré V1.1.4 (Bêta only)
+
+- 08/01/2020 : V1.1.6 (Bêta)
+	- [x] Ajout d’un bouton pour forcer la remonté des informations du Sonoff POW
+	- [ ] MAJ Documentation pour POW
+	- [x] Ajout d’un cron 5/10/15/30, 1H ou journalier pour programmer la remonter des infos du Sonoff POW configurable dans la configuration de l’équipement
+	- [x] Ajout d'une détection si l'equipement est connecté.
+	- [x] Ajout d'une détection si l'équipement n'est plus connecté.
+	- [ ] Vérification si l'équipement est en ligne avant d'envoyer une commande.
+	- [x] Ajout d'une photo de l'équipement (Si la votre n'y est pas, merci de m'envoyer le model inscrit dans la configuration du plugin)
+	- [x] Ajout de la compatibilitée de l'ampoule B1 
+	- [x] Ajout des stat du POW sur le mois (test)
+	- [x] Nétoyage du script serveur
+	- [x] Relance automatique du serveur s'il se ferme
+	- [x] Mise à jour du script d'installation des dépendances
+	- [x] Lancement du serveur sur le local (en cas de non selection entre http et https)
+	- [x] Réorganisation de la configuration de l'équipement
+
+
+- 20/01/2020 : V1.1.5 Version stable
+
+- 16/01/2020 : V1.1.5 (Bêta)
+	- [x] Récupération de l'adresse ip et port interne et externe
+	- [x] Ajout de la possibilitée de faire tourner le plugin en SSL (https) *Pour pouvoir fermer le port 80*
+  	- [x] Correction des bogues sur l'ifan.
+	- [x] Amélioration de la réactivitée sur l'iFan.
+	- [x] Ajout du changement de couleur du "Ultrasonic Humidifier" AGW-D7 (WI16) *Merci à kubico29*
+
+
+- 14/01/2019 : V1.1.4 (Stable)
+
+- 09/01/2019 : V1.1.4 (bêta)
 	- [x] Mise en place d'un bouton ON (Qui ne fera que on) et OFF (Qui ne fera que off) en remplacement du ON/OFF actuel *Il faudra refaire une synchronisation*
 	- [x] Amélioration de la réactivitée ON/OFF (Instantané) *Il faudra refaire une synchronisation*
 
