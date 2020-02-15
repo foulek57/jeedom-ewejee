@@ -57,7 +57,7 @@ Pour savoir comment envoyer des logs sur le community Jeedom, @akenad l’a expl
 Partage d'apareils entre comptes eWeLink
 -----------------------------------------
 
-![1](../images/share/1.png){: width=500px}
+![1|512x397](../images/share/1.png)
 
 
 Selectionnez un de vos apareil
