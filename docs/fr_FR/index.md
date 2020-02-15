@@ -1,13 +1,11 @@
  
 
 eWeJee 
-
 ============================== 
 
  
 
 Description
-
 ----------- 
 
  
@@ -57,13 +55,11 @@ Je vous indique également le device id et l'apikey si vous souhaitez les pilote
  
 
 Configuration 
-
 ------------- 
 
  
 
 Configuration du plugin 
-
 ======================== 
 
  
@@ -131,7 +127,6 @@ Si vous avez une erreur qui vous demande de vérifier le port, vérifiez la conf
  
 
 Le plugin 
-
 ========= 
 
  
@@ -165,7 +160,6 @@ Si vous ajoutez un nouvel appareil, il suffit de resynchroniser, et l’appareil
  
 
 Gestion 
-
 ========== 
 
  
@@ -187,7 +181,6 @@ Dans la partie gestion vous avez :
  
 
 Mes ewejees 
-
 ============= 
 
  
@@ -199,7 +192,6 @@ Affiche tous vos équipements.
  
 
 Configuration d’un ewejee 
-
 ============= 
 
  
@@ -245,7 +237,6 @@ Dans l’onglet équipement vous retrouver :
  
 
 Interrupteur / relais / prises 
-
 ---------------------- 
 
 Vous avez deux commandes action par « band » (Channel, canal) qui effectue un "on" et un "off" et une commande info qui vous indique s'il est allumé ou éteint. 
@@ -273,7 +264,6 @@ La commande info n’est pas binaire.
  
 
 Commandes  
-
 ---------- 
 
  
@@ -295,7 +285,6 @@ Commandes
  
 
 Compatibilité 
-
 ========= 
 
  
@@ -311,8 +300,7 @@ Voici la liste des équipements compatible à 100% :
  
 
 Sonoff :  
-
-======= 
+------- 
 
  
 
