@@ -102,10 +102,6 @@ Suivant le type de connection choisi, le plugin ira récupérer les informations
 N'oubliez pas de sauvgarder !
  
 
-![login](../images/login.png) 
-
- 
-
 > **Important** 
 
 > 
@@ -306,7 +302,7 @@ Compatibilité
 
 Le plugin est fait de façon a être compatible avec la majorité des équipements. 
 
-Une adaptation doit être faites pour certains équipements, comme par exemple l'ifan. 
+Une adaptation doit être faites pour certains équipements, comme par exemple l'ifan, le POW, RF Bridge etc... 
 
  
 
@@ -358,7 +354,7 @@ Si votre équipement n'est pas dans la liste, cela ne veut pas dire qu'il ne ser
 
  
 
-Si vous remarquez qu'un de vos équipements n'est pas fonctionnel ou ne fonctionne pas correctement, vous pouvez me contacter sur GitHub (de préférence). 
+Si vous remarquez qu'un de vos équipements n'est pas fonctionnel ou ne fonctionne pas correctement, vous pouvez me contacter sur le community de Jeedom (de préférence). 
 
 Équipements spécifiques 
 
@@ -366,19 +362,21 @@ Sonoff POW
 
 Le POW a une commande supplémentaire permettant de faire une remontée des informations de consommation, avec ce bouton, les informations seront remonté pendant 1 minute. 
 
-IMAGE 
+![pow_actual](../images/pow_actual.png) 
 
 Il dispose également d'un paramètre cron qui permet de faire l’actualisation a intervalle régulière ou en continu (1 minute) 
 
-IMAGE 
+![pow_cron](../images/pow_cron.png) 
 
 Vous avez aussi une commande pour faire remonter les moyennes de consommation du mois en cours. 
 
-IMAGE 
+![pow_mensuel_btn](../images/pow_mensuel_btn.png)  
 
 Cette information est affiché sous forme de tableau dans l’onglet « Historique POW » 
 
-Si vous avez des suggestions je serrai ravi de les lire ! 
+![pow_mensuel_btn](../images/pow_mensuel_tb.png)  
+
+Si vous avez des suggestions je serrais ravi de les lire ! 
 
 Sonoff ifan 
 
@@ -388,7 +386,8 @@ Il se peut que vous avez également des commandes info « ne pas suppr. ».
 
 Ces commandes sont essentiels pour le bon fonctionnement du plugin, il ne faut surtout pas les supprimer, en revanche vous pouvez les masquer du widget en décrochant la case « afficher ». 
 
-IMAGE DECOCH AFFICHER 
+![ifan_nps.png](../images/ifan_nps.png)  
+
 
 Vous avez aussi des commandes info, une pour l’état de la lumière, l'autre pour donner la vitesse du ventilateur. 
 
