@@ -72,10 +72,14 @@ Entrez l'adresse mail du second compte eWeLink puis cliquez sur "Selectionner le
 <img src="../images/share/4.png" alt="" width="500"/>
 
 Cochez tous les équipements que vous souhaitez partager et confirmez 
-
 Cliquez ensuite sur OK.
 
+<img src="../images/share/5.png" alt="" width="500"/>
+
 Sur le second apareil où vous avez eWeLink (le second compte), vous recevez une notifiction, acceptez la.
+
+<img src="../images/share/6.png" alt="" width="500"/>
+
 
 Et voila tous les apareils ont été partagé.
 
