@@ -54,7 +54,28 @@ Pour savoir comment envoyer des logs sur le community Jeedom, @akenad l’a expl
 
 > eWeLink. 
 
- 
+Partage d'apareils entre comptes eWeLink
+-----------------------------------------
+
+![1](../images/share/1.png) 
+Selectionnez un de vos apareil
+![2](../images/share/2.png) 
+Cliquez sur partager
+![3](../images/share/3.png) 
+Entrez l'adresse mail du second compte eWeLink puis cliquez sur "Selectionner les devices".
+![4](../images/share/4.png) 
+Cochez tous les équipements que vous souhaitez partager et confirmez 
+
+Cliquez ensuite sur OK.
+
+Sur le second apareil où vous avez eWeLink (le second compte), vous recevez une notifiction, acceptez la.
+
+Et voila tous les apareils ont été partagé.
+
+
+
+
+
 
  
 
