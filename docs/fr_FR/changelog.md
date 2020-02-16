@@ -3,9 +3,15 @@
 - A venir : 
 	- [ ] Mise en place d'une fonction de traitement d'alèrtes (date et heure).
 	- [ ] ...Récupération des noms saisie dans l'aplication eWeLink (J'ai besoins de bêta testeur pour ceci...Envoyez moi un message !!).
-	- [ ] Ajout des stat du POW sur le mois (Final)
-	- [ ] Ajout KingArt KING-Q4
 	- [ ] Vérification si l'équipement est en ligne avant d'envoyer une commande.
+
+
+- ../../2020 : V1.1.7 (Bêta)
+	- [ ] Ajout KingArt KING-Q4 (Volets)
+	- [ ] Ajout KingArt KING-M4 (Inter avec variateur)
+	- [ ] Ajout des stat du POW sur le mois (Final)
+	- [ ] Correction ampérage en intensité pour SonOff Pow *Merci @olive*
+
 
 
 - 16/01/2020 : V1.1.6 (Stable)
