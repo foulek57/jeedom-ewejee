@@ -426,3 +426,27 @@ Changelog
 Changelog détaillé : 
 
 <https://github.com/foulek57/jeedom-ewejee/blob/master/docs/fr_FR/changelog.md> 
+
+
+**FAQ**
+=======
+
+Comment installer la version bêta ?
+-----------------------------------
+
+Il faut l’activer dans le Market : jeedom.com/market/ 5
+
+![ifan_nps.png](../images/faq/1.png)  
+
+Puis cocher la case “Activer l’accès aux plugins beta”
+
+![ifan_nps.png](../images/faq/2.png)  
+
+
+<div class="alert alert-danger">ATTENTION l'activation des bêtas est très très risquée et vous INTERDIT TOUT ACCÈS AU SUPPORT. Il faut aussi obligatoirement passer Jeedom en bêta et faire des mises à jour fréquentes même s'il n'y a pas de mise à jour proposée. IMPORTANT les bêtas sont souvent instables et peuvent causer de nombreux soucis, il ne faut surtout pas les mettre sur un système de production. EN CAS DE SOUCIS L'EQUIPE Jeedom NE SERA PAS ET NE POURRA PAS ETRE TENUE RESPONSABLE. Voir la <a href="https://jeedom.github.io/documentation/howto/fr_FR/passer_en_beta" target="_blank">documentation</a></div>
+
+Peut on avoir deux compte ewelink gérer par ton plugin ?
+--------------------------------------------------------
+
+Pas directement, le plugin n'accepte qu'un compte, mais vous povuez partager les apareils entre coppte eWeLink ! Regaredez le début de la documentation.
+
