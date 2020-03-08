@@ -1,174 +1,452 @@
+ 
 
-eWeJee
-==============================
+eWeJee 
+============================== 
+
+ 
 
 Description
------------
+----------- 
 
-Ce plugin à pour but d’intégrer à Jeedom TOUT vos équipements compatible eWeLink sans les flasher.
-Grace à un bouton de synchronisation, un clic et tout vous équipements sont importé dans Jeedom.
+ 
 
-> **Info**
->
-> Le pugin passe par le cloud eWeLink
+Ce plugin a pour but d’intégrer à Jeedom TOUT vos équipements compatible eWeLink sans les flasher. 
 
-> **IMPORTANT**
-> 
-> eWeLink n'accepte qu'une seul connexion par compte, donc dès que vous lancer le plugin, cela va déconnecter votre smartphone.
-> Pour palier à cela, il est conseillé de faire une compte eWeLink pour Jeedom, vous pouvez partager vos équipements entre compte
-> eWeLink.
+Beaucoup d’appareils sont compatibles avec eWeLink, notamment ceux de la marque Sonoff, très connue pour les appareils peu coûteux et relativement fiable. 
 
+La liste ne s’arrête pas aux Sonoff, beaucoup de fabriquant chinois produisent des appareils compatibles avec l'application eWeLink comme par exemple des humidificateurs, bandes led etc… 
 
-![ewejee icon](../images/ewejee_icon.png)
+Grace à un bouton de synchronisation, un clic et tout vous équipements sont importé dans Jeedom. 
 
-Configuration
--------------
+Il faut en amont configurer votre appareil avec l'application eWeLink. Pour cela, reportez vous a la notice fournie avec votre appareil. 
 
-Configuration du plugin
-========================
+Le plugin est conçu pour être utilisé sans avoir de connaissances particulières tout est codé pour vous simplifier la mise en place. 
 
-a.  Installation/Création
+ 
 
-> **Tip**
->
-> Afin d’utiliser le plugin, vous devez le télécharger, l’installer et
-> l’activer comme tout plugin Jeedom.
+Je vous indique également le device id et l'apikey si vous souhaitez les piloter en LAN *En cours de dev*
 
-Suite à cela vous arriverez sur cette page :
-
-![configuration](../images/configuration.png)
-
-Sur cette page vous devez rentrez votre login et mot de passe de l’application eWeLink.
-Sauvgardez et cliquez sur verifier la connexion.
-
-![login](../images/login.png)
-
-> **Important**
->
-> Il faut impérativement attendre 5 minutes après avoir lancé l'installation des dépendances.
-
-Si vous avez le méssage "Echec d'authentification, veillez vérifier vos identifiants" : 
-
-- Le mot de passe ne peut pas contenir de signe "$".
-- Vérifiez vos identifants, le login doit etre l'adresse mail utilisé dans l'aplication eWeLink.
-- Si vos identifiants sont correct, vérifiez que le démon est bien lancé et que les dépendances sont "OK".
-- Regardez les log "eWeJee_node" dans la section "Logs et surveillance", les dernières lignes vous indique l'érreur, si vous ne la comprenez pas, contactez moi sur community ou GitHub.
-
-
-Le plugin
+**IMPORTANT**
 =========
 
-Rendez vous dans le menu Plugins &gt; objets connectés pour retrouver le plugin.
+Si vous rencontrez un problème avec le plugin, veuillez créer un nouveau sujet sur <http://community.jeedom.com>
+Veuillez donner le maximum de détail et au minimum les logs
+Pour savoir comment envoyer des logs sur le community Jeedom, @akenad l’a expliqué dans un de ses “Flash” ici :
+<https://community.jeedom.com/t/2440/15>
 
-![plugin_obj_ewejee](../images/plugin_obj_ewejee.png)
+ 
 
-Sur cette page, il vous suffit maintenant de cliquer sur le petit plus au-dessus de synchroniser pour synchroniser tous les équipements de l'application eWeLink.
+> **Info** 
 
-![sync](../images/sync.png)
+> 
 
-Une fois que c'est fait si vous ne voyez pas les équipements, recharger la page (CTRL + F5).
+> Le pugin passe par le cloud eWeLink 
 
-![sync2](../images/sync2.png)
+ 
+
+> **IMPORTANT** 
+
+>  
+
+> eWeLink n'accepte qu'une seul connection par compte, donc dès que vous lancer le plugin, cela va déconnecter votre smartphone et vice versa. 
+
+> Pour palier à cela, il est conseillé de faire une compte eWeLink pour Jeedom, vous pouvez partager vos équipements entre compte 
+
+> eWeLink. 
+
+Partage d'apareils entre comptes eWeLink
+-----------------------------------------
+
+<img src="../images/share/1.png" alt="" width="500"/>
+
+Selectionnez un de vos apareil
+
+<img src="../images/share/2.png" alt="" width="500"/>
+
+Cliquez sur partager
+
+<img src="../images/share/3.png" alt="" width="500"/>
+
+Entrez l'adresse mail du second compte eWeLink puis cliquez sur "Selectionner les devices".
+
+<img src="../images/share/4.png" alt="" width="500"/>
+
+Cochez tous les équipements que vous souhaitez partager et confirmez 
+Cliquez ensuite sur OK.
+
+<img src="../images/share/5.png" alt="" width="500"/>
+
+Sur le second apareil où vous avez eWeLink (le second compte), vous recevez une notifiction, acceptez la.
+
+<img src="../images/share/6.png" alt="" width="500"/>
 
 
-Gestion
+Et voila tous les apareils ont été partagé.
+
+
+![ewejee icon](../images/ewejee_icon.png) 
+
+ 
+
+Configuration 
+------------- 
+
+ 
+
+Configuration du plugin 
+======================== 
+
+ 
+
+a.  Installation/Création 
+
+ 
+
+> **Tip** 
+
+> 
+
+> Afin d’utiliser le plugin, vous devez le télécharger, l’installer et 
+
+> l’activer comme tout plugin Jeedom. 
+
+ 
+
+Suite à cela vous arriverez sur cette page : 
+
+ 
+
+![configuration](../images/configuration.png) 
+
+ 
+
+Sur cette page vous devez entrez votre login et mot de passe de l’application eWeLink. 
+
+Vous devez aussi choisir le type de connection, http ou https. 
+
+Suivant le type de connection choisi, le plugin ira récupérer les informations dans la configuration de Jeedom, il est donc essentiel que ces informations sont correctes 
+
+![configuration](../images/configuration_ip_jeedom.png) 
+
+
+N'oubliez pas de sauvgarder !
+ 
+
+> **Important** 
+
+> 
+
+> Il faut impérativement attendre 5 minutes après avoir lancé l'installation des dépendances, vous pouvez suivre l’installation avec le log ewejee_dep. 
+
+L’installation n'est pas très verbeux, il est donc normal que l'installation reste bloqué quelques instants à 60%. 
+
+ 
+
+Si vous avez le message "Echec d'authentification, veillez vérifier vos identifiants" :  
+
+ 
+
+- Le mot de passe ne peut pas contenir de signe "$". 
+
+- Vérifiez vos identifiants, le login doit être l'adresse mail utilisé dans l’application eWeLink. 
+
+- Si vos identifiants sont correct, vérifiez que le démon est bien lancé et que les dépendances sont "OK". 
+
+- Regardez les log "eWeJee_node" dans la section "Logs et surveillance", les dernières lignes vous indique l’érreur, si vous ne la comprenez pas, contactez moi sur community ou GitHub. 
+
+ 
+
+Si vous avez une erreur qui vous demande de vérifier le port, vérifiez la configuration dans l’onglet reseau, vérifiez l’accès interne et externe. 
+
+ 
+
+Le plugin 
+--------- 
+
+ 
+
+Rendez vous dans le menu Plugins &gt; objets connectés pour retrouver le plugin. 
+
+ 
+
+![plugin_obj_ewejee](../images/plugin_obj_ewejee.png) 
+
+ 
+
+Sur cette page, il vous suffit maintenant de cliquer sur le petit plus au-dessus de synchroniser pour synchroniser tous les équipements de l'application eWeLink. 
+
+ 
+
+![sync](../images/sync.png) 
+
+ 
+
+Une fois que c'est fait si vous ne voyez pas les équipements, rechargez la page (CTRL + F5). 
+
+ 
+
+![sync2](../images/sync2.png) 
+
+ 
+
+Si vous ajoutez un nouvel appareil, il suffit de resynchroniser, et l’appareil sera également ajouté au plugin. 
+
+ 
+
+Gestion 
+========== 
+
+ 
+
+Dans la partie gestion vous avez : 
+
+-Synchroniser : Ce bouton sert à synchroniser tous les équipements de l'application eWeLink. 
+
+> **Info** 
+
+>  
+
+>Une détection des équipements déjà connus à été ajouté, donc plus besoin de tout supprimer. 
+
+>Si vous avez un équipement a actualiser, supprimer le. 
+
+-Configuration : Pour voir la configuration du plugin… 
+
+ 
+
+Mes ewejees 
+============= 
+
+ 
+
+Affiche tous vos équipements. 
+
+1 ewejee correspond à un équipement (intérrupteur, prise etc…) 
+
+ 
+
+Configuration d’un eWeJee 
+============= 
+
+ 
+
+Vous avez 2 onglets. 
+
+ 
+
+Dans l’onglet équipement vous retrouver :  
+
+ 
+
+- Le nom de l’équipement. 
+
+- L'objet parent. 
+
+- La catégorie. 
+
+- Une case de commentaire. 
+
+- La marque 
+
+- Le modèle 
+
+- L’état, s’il est en ligne ou non (Information actualisé quand une commande est lancée.) 
+
+- La photo de l’équipement. 
+
+ 
+
+![onglet_equip](../images/onglet_equip.png) 
+
+ 
+
+> ** Info** 
+
+> Vous pouvez modifier le nom cela n'a aucun impact. 
+
+> La case de commentaire peut-être utilisé comme vous le souhaitez, cela vous permet de mettre un commentaire à votre équipement. 
+
+ 
+
+ 
+
+Interrupteur / relais / prises 
+=============================== 
+
+Vous avez deux commandes action par « band » (Channel, canal) qui effectue un "on" et un "off" et une commande info qui vous indique s'il est allumé ou éteint. 
+
+La commande info n’est pas binaire. 
+
+ 
+
+- La mise a jour se fait automatiquement dès qu'un changement d'état est effectué (même en allumant un interrupteur sans passer par l'appli ou le plugin par exemple) 
+
+- Pour les relais utilisé en "contact sec", l'état de change pas car celui-ci envoi un "push" sur le relai. 
+
+ 
+
+> **Info** 
+
+>  
+
+> Il est normal de voir plusieurs channel et état même si votre equipement n'a qu'un channel, car dans la synchronisation  
+
+> on récupère tous les paramètres et sonoff a 4 paramètres, et ceci même pour les équipements qui n'en ont qu'un seul. 
+
+> Vous pouvez supprimer ceux qui sont en trop, sauf si le nom est "Ne pas suppr.", dans ce cas cet équipement est obligatoire pour le fonctionnement, vous pouvez décocher la case "Afficher" pour l'enlever du widget. 
+
+ 
+
+Commandes  
+========= 
+
+ 
+
+![onglet_cmd_switch2](../images/onglet_cmd_switch2.png) 
+
+ 
+
+- Nom : Le nom de ton équipement (Modifiable). 
+
+- Type : Le type de commande. 
+
+- Options : Permet d'afficher ou de cacher la commande, et d'historiser les commandes info. 
+
+- Unitée : Permet de mettre une unitée (°C, %...). 
+
+- Action : Accès à la configuration de la commande. 
+
+ 
+
+Compatibilité 
+------------- 
+
+ 
+
+Le plugin est fait de façon a être compatible avec la majorité des équipements. 
+
+Une adaptation doit être faites pour certains équipements, comme par exemple l'ifan, le POW, RF Bridge etc... 
+
+ 
+
+Voici la liste des équipements compatible à 100% : 
+
+ 
+
+Sonoff :  
+========= 
+
+ 
+
+- [x] ifan02/ifan03 
+
+- [x] RF Bridge 
+
+- [x] TH10/TH16 
+
+- [x] Basic R2 
+
+- [x] Basic R3 
+
+- [x] Dual R2 
+
+- [x] Mini 
+
+- [x] POWR2 
+
+- [x] 4CHR2/PROR2 
+
+- [x] IW100/101 
+
+- [x] TX SWITCH 
+
+- [x] S20 
+
+- [x] S26 
+
+- [x] S31 
+
+- [x] S55 
+
+- [x] Relais DIY 
+
+ 
+
+Si votre équipement n'est pas dans la liste, cela ne veut pas dire qu'il ne sera pas supporté par le plugin, cette liste est celle des équipements testé. 
+
+ 
+
+Si vous remarquez qu'un de vos équipements n'est pas fonctionnel ou ne fonctionne pas correctement, vous pouvez me contacter sur le community de Jeedom (de préférence). 
+
+Équipements spécifiques 
+
+Sonoff POW 
 ==========
 
-Dans la partie gestion vous avez :
--	Synchroniser : Ce bouton sert à synchroniser tous les équipements de l'application eWeLink.
-> **Info**
-> 
->	Une détection des equipements déjà connus à été ajouté, donc plus besoin de tout supprimer.
->	Si vous avez un equipement à acutaliser, supprimer le.
--	Configuration : Pour voir la configuration du plugin…
+Le POW a une commande supplémentaire permettant de faire une remontée des informations de consommation, avec ce bouton, les informations seront remonté pendant 1 minute. 
 
-Mes ewejees
-=============
+![pow_actual](../images/pow_actual.png) 
 
-Affiche tous vos équipements.
-1 ewejee correspond à un équipement (intérrupteur, prise etc…)
+Il dispose également d'un paramètre cron qui permet de faire l’actualisation a intervalle régulière ou en continu (1 minute) 
 
-Configuration d’un ewejee
-=============
+![pow_cron](../images/pow_cron.png) 
 
-Vous avez 2 onglets.
+Vous avez aussi une commande pour faire remonter les moyennes de consommation du mois en cours. 
 
-Dans l’onglet équipement vous retrouver : 
+![pow_mensuel_btn](../images/pow_mensuel_btn.png)  
 
-- Le nom de l’équipement.
-- L'objet parent.
-- La catégorie.
-- Une case de commentaire.
+Cette information est affiché sous forme de tableau dans l’onglet « Historique POW » 
 
-![onglet_equip](../images/onglet_equip.png)
+![pow_mensuel_btn](../images/pow_mensuel_tb.png)  
 
-> **Important**
-> 
-> Le nom de l’équipement ne doit pas être changé il doit correspondre au nom que vous avez dans l’application.
-> La case de commentaire peut-être utilisé comme vous le souhaitez, cela vous permet de mettre un commentaire à votre équipement.
+Si vous avez des suggestions je serrais ravi de les lire ! 
+
+Sonoff ifan 
+===========
+
+L'ifan est également spécifique, vous disposez de 4 commandes d'allumage et d'extinction et de 3 commandes pour les 3 vitesses. 
+
+Il se peut que vous avez également des commandes info « ne pas suppr. ». 
+
+Ces commandes sont essentiels pour le bon fonctionnement du plugin, il ne faut surtout pas les supprimer, en revanche vous pouvez les masquer du widget en décrochant la case « afficher ». 
+
+![ifan_nps.png](../images/ifan_nps.png)  
 
 
-Interrupteur / relais / prises
-----------------------
-Vous avez une commande action par « band » (Channel, cannal) qui effectue un "on" s’il est éteint et un "off" s’il est allumé et un équipement info qui vous indique s'il est allumé ou éteint.
-Vous avez plusieurs moyens de metre à jour les commandes info : 
+Vous avez aussi des commandes info, une pour l’état de la lumière, l'autre pour donner la vitesse du ventilateur. 
 
-- La mise a jour se fait automatiquement dès qu'un changement d'état est éffectué (même en allumant un interrupteur sans passer par l'appli ou le plugin par exemple)
-- Une mise à jour automatique est prévu toute les heures.
-- Pour les relais utilisé en "contact sec", l'état de change pas car celui-ci envoi un "push" sur le relai.
+ 
 
-> **Info**
-> 
-> Il est normal de voir plusieurs channel et etat même si votre equipement n'a qu'un channel, car dans la synchronisation 
-> on récupère tous les paramètres et sonoff a 4 paramètres, et ceci même pour les equipements qui n'en ont qu'un seul.
-> Vous pouvez suprimmer ceux qui sont en trop, sauf si le nom est "Ne pas suppr.", dans ce cas cet équipement est obligatoire pour le fonctionnement, vous pouvez décocher la case "Afficher" pour l'enlever.
+Changelog 
 
-Commandes 
-----------
+========= 
 
-![onglet_cmd_switch2](../images/onglet_cmd_switch2.png)
+ 
 
-- Nom : Le nom de ton équipement (Modifiable).
-- Type : Le type de commande.
-- Options : Permet d'afficher ou de cacher la commande, et d'historiser les commandes info.
-- Unitée : Permet de mettre une unitée (°C, %...).
-- Action : Acces à la configuration de la commande, ou du test.
+Changelog détaillé : 
 
-Compatibilitée
-=========
+<https://github.com/foulek57/jeedom-ewejee/blob/master/docs/fr_FR/changelog.md> 
 
-Le plugin est fait de façon a être compatible avec la majorité des équipements.
-Une adaptation doit être faites pour certains équipements, comme par exemple l'ifan.
 
-Voici la liste des équipements compatible à 100% :
-
-Sonoff : 
+**FAQ**
 =======
 
-- [x] ifan02/ifan03
-- [x] RF Bridge (beta)
-- [x] TH10/TH16
-- [x] Basic R2
-- [x] Basic R3
-- [x] Dual R2
-- [x] Mini
-- [x] POWR2
-- [x] 4CHR2/PROR2
-- [x] IW100/101
-- [x] TX SWITCH
-- [x] S20
-- [x] S26
-- [x] S31
-- [x] S55
-- [ ] 433 RF Bridge (J'ai besoin de bêta testeur)
-- [x] Relais DIY
+Comment installer la version bêta ?
+-----------------------------------
 
-Si votre "equipement n'est pas dans la liste, cela ne veut pas dire qu'il ne sera pas supporté par le plugin, cette liste est celle des équipements testé.
+Il faut l’activer dans le Market : jeedom.com/market/ 5
 
-Si vous remarque qu'un de vos équipements n'est pas fonctionnel ou ne fonctionne pas correctement, vous pouvez me contacter sur GitHub (de préférence).
+![ifan_nps.png](../images/faq/1.png)  
 
-Changelog
-=========
+Puis cocher la case “Activer l’accès aux plugins beta”
 
-Changelog détaillé :
-<https://github.com/foulek57/jeedom-ewejee/blob/master/docs/fr_FR/changelog.md>
+![ifan_nps.png](../images/faq/2.png)  
+
+
+<div class="alert alert-danger">ATTENTION l'activation des bêtas est très très risquée et vous INTERDIT TOUT ACCÈS AU SUPPORT. Il faut aussi obligatoirement passer Jeedom en bêta et faire des mises à jour fréquentes même s'il n'y a pas de mise à jour proposée. IMPORTANT les bêtas sont souvent instables et peuvent causer de nombreux soucis, il ne faut surtout pas les mettre sur un système de production. EN CAS DE SOUCIS L'EQUIPE Jeedom NE SERA PAS ET NE POURRA PAS ETRE TENUE RESPONSABLE. Voir la <a href="https://jeedom.github.io/documentation/howto/fr_FR/passer_en_beta" target="_blank">documentation</a></div>
+
+Peut on avoir deux compte ewelink gérer par ton plugin ?
+--------------------------------------------------------
+
+Pas directement, le plugin n'accepte qu'un compte, mais vous povuez partager les apareils entre coppte eWeLink ! Regaredez le début de la documentation.
+
