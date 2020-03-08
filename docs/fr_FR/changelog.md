@@ -17,7 +17,7 @@
 	- [ ] Vérification si l'équipement est en ligne avant d'envoyer une commande.
 	- [x] Ajout d'une photo de l'équipement (Si la votre n'y est pas, merci de m'envoyer le model inscrit dans la configuration du plugin)
 	- [x] Ajout de la compatibilitée de l'ampoule B1 
-	- [x] Ajout des stat du POW sur le mois (test)
+	- [x] Ajout des stat du POW sur le mois (dev en cours)
 	- [x] Nétoyage du script serveur
 	- [x] Relance automatique du serveur s'il se ferme
 	- [x] Mise à jour du script d'installation des dépendances
