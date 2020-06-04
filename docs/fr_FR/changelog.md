@@ -7,11 +7,16 @@
 	- [ ] Test de l'activation du pulse
 
 
-- ../../2020 : V1.1.7 (Bêta)
+- V2.0.0 (Bêta)
+    - [ ] **Ajout d'une fonctionalité LAN pour les équipements compatible.**
+    - [ ] Ajout des stat du POW sur le mois (Final)
+    - [ ] 
+
+
+- V1.1.7 (Bêta)
 	- [x] Ajout KingArt KING-Q4 (Volets)
 	- [x] Ajout KingArt KING-M4 (Inter avec variateur)
 	- [x] Ajout du Sonoff D1 dimmer
-	- [ ] Ajout des stat du POW sur le mois (Final)
 	- [x] Correction ampérage en intensité pour SonOff Pow *Merci @olive*
 
 - 16/01/2020 : V1.1.6 (Stable)

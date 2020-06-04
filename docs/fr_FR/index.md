@@ -4,6 +4,7 @@ eWeJee
 ============================== 
 
  
+# Version 2.0 en cours de développement, celle-ci ajoutera une possibilitée de contrôler les équipements sans passer par le cloud !
 
 Description
 ----------- 
@@ -24,7 +25,6 @@ Le plugin est conçu pour être utilisé sans avoir de connaissances particuliè
 
  
 
-Je vous indique également le device id et l'apikey si vous souhaitez les piloter en LAN *En cours de dev*
 
 **IMPORTANT**
 =========
@@ -40,7 +40,7 @@ Pour savoir comment envoyer des logs sur le community Jeedom, @akenad l’a expl
 
 > 
 
-> Le pugin passe par le cloud eWeLink 
+> Le pugin passe par le cloud eWeLink, mais une fonctionalité LAN (limité à ON/OFF pour le moment) est en cours de développement.
 
  
 
@@ -448,5 +448,4 @@ Puis cocher la case “Activer l’accès aux plugins beta”
 Peut on avoir deux compte ewelink gérer par ton plugin ?
 --------------------------------------------------------
 
-Pas directement, le plugin n'accepte qu'un compte, mais vous povuez partager les apareils entre coppte eWeLink ! Regaredez le début de la documentation.
-
+Pas directement, le plugin n'accepte qu'un compte, mais vous pouvez partager les appareils entre compte eWeLink ! Regardez le début de la documentation.
