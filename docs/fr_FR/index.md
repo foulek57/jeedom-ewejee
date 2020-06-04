@@ -6,6 +6,8 @@ eWeJee
  
 # Version 2.0 en cours de développement, celle-ci ajoutera une possibilitée de contrôler les équipements sans passer par le cloud !
 
+Je vais ajouter cette possibilitée, de sorte à ce que vous ayez juste à cliquer sur un bouton sans entrer une seul adresse IP ou autre, afin de se simplifier la vie ;-)
+
 Description
 ----------- 
 
