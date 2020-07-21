@@ -8,9 +8,11 @@
 
 
 - V2.0.0 (Bêta)
-    - [ ] **Ajout d'une fonctionalité LAN pour les équipements compatible.**
-    - [ ] Ajout des stat du POW sur le mois (Final)
-    - [ ] 
+    - [x] **Ajout d'une fonctionalité LAN pour les équipements compatible.**
+    - [x] Ajout des stat du POW sur le mois (Final)
+    - [x] Ajout d'un systeme de sauvgarde des données de conso du POW pas mois et annees
+    - [x] Ajout de 16 commandes pour le rf bridge portant le total a 32
+    - [x] Amélioration visuel divers
 
 
 - V1.1.7 (Bêta)

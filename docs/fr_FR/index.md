@@ -126,7 +126,7 @@ Sur cette page vous devez entrez votre login et mot de passe de l’application 
 
 Vous devez aussi choisir le type de connection, http ou https. 
 
-Suivant le type de connection choisi, le plugin ira récupérer les informations dans la configuration de Jeedom, il est donc essentiel que ces informations sont correctes 
+Suivant le type de connection choisi, le plugin ira récupérer les informations dans la configuration de Jeedom, il est donc essentiel que ces informations soient correctes 
 
 ![configuration](../images/configuration_ip_jeedom.png) 
 
