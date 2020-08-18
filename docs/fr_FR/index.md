@@ -4,7 +4,7 @@ eWeJee
 ============================== 
 
  
-# Version 2.0 en cours de développement, celle-ci ajoutera une possibilitée de contrôler les équipements en LAN, sans passer par le cloud !
+# Version 2.0 en Bêta, celle-ci ajoute une possibilitée de contrôler les équipements en LAN, sans passer par le cloud !
 
 Je vais ajouter cette possibilitée, de sorte à ce que vous ayez juste à cliquer sur un bouton sans entrer une seul adresse IP ou autre, afin de se simplifier la vie ;-)
 
@@ -21,7 +21,7 @@ La liste ne s’arrête pas aux Sonoff, beaucoup de fabriquant chinois produisen
 
 Grace à un bouton de synchronisation, un clic et tout vous équipements sont importé dans Jeedom. 
 
-Il faut en amont configurer votre appareil avec l'application eWeLink. Pour cela, reportez vous a la notice fournie avec votre appareil. 
+Il faut en amont configurer votre appareil avec l'application eWeLink. Pour cela, reportez vous à la notice fournie avec votre appareil. 
 
 Le plugin est conçu pour être utilisé sans avoir de connaissances particulières tout est codé pour vous simplifier la mise en place. 
 
@@ -42,7 +42,7 @@ Pour savoir comment envoyer des logs sur le community Jeedom, @akenad l’a expl
 
 > 
 
-> Le pugin passe par le cloud eWeLink, mais une fonctionalité LAN (limité à ON/OFF pour le moment) est en cours de développement.
+> Le pugin passe par le cloud eWeLink, mais une fonctionalité LAN (limité à ON/OFF pour le moment) est disponible en Bêta.
 
  
 
@@ -54,7 +54,8 @@ Pour savoir comment envoyer des logs sur le community Jeedom, @akenad l’a expl
 
 > Pour palier à cela, il est conseillé de faire une compte eWeLink pour Jeedom, vous pouvez partager vos équipements entre compte 
 
-> eWeLink. 
+> eWeLink.
+> Cela n'impacte pas le LAN.
 
 Partage d'apareils entre comptes eWeLink
 -----------------------------------------
@@ -124,10 +125,13 @@ Suite à cela vous arriverez sur cette page :
 
 Sur cette page vous devez entrez votre login et mot de passe de l’application eWeLink. 
 
-Vous devez aussi choisir le type de connection, http ou https. 
+L'acces interne bloque, est dans le cas où vous avez coupé l'accès interne, si vous n'avez rien fait, laissez sur non.
 
-Suivant le type de connection choisi, le plugin ira récupérer les informations dans la configuration de Jeedom, il est donc essentiel que ces informations soient correctes 
+Etat binaire souhaité, mettez oui si vous voulez que on = 1 et off = 0, pratique pour les widget.
 
+> **Important** 
+> Si vous changez l'état binaire, il faudra supprimer tous les équipements et refaire une synchropnisation, sinon il faudra changer tous les type de commandes info.
+>
 ![configuration](../images/configuration_ip_jeedom.png) 
 
 
@@ -191,7 +195,7 @@ Une fois que c'est fait si vous ne voyez pas les équipements, rechargez la page
 
  
 
-Si vous ajoutez un nouvel appareil, il suffit de resynchroniser, et l’appareil sera également ajouté au plugin. 
+Si vous ajoutez un nouvel appareil, il suffit de relancer le démon, resynchroniser, et l’appareil sera également ajouté au plugin. 
 
  
 
@@ -210,7 +214,7 @@ Dans la partie gestion vous avez :
 
 >Une détection des équipements déjà connus à été ajouté, donc plus besoin de tout supprimer. 
 
->Si vous avez un équipement a actualiser, supprimer le. 
+>Si vous avez un équipement à actualiser, supprimer le. 
 
 -Configuration : Pour voir la configuration du plugin… 
 
@@ -382,7 +386,7 @@ Si vous remarquez qu'un de vos équipements n'est pas fonctionnel ou ne fonction
 
 Équipements spécifiques 
 
-Sonoff POW 
+Sonoff POW (En cours d'amélioration, cette partie sera mise à jour une fois terminé)
 ==========
 
 Le POW a une commande supplémentaire permettant de faire une remontée des informations de consommation, avec ce bouton, les informations seront remonté pendant 1 minute. 
