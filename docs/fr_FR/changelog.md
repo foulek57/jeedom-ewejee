@@ -5,6 +5,8 @@
 	- [ ] ...Récupération des noms saisie dans l'aplication eWeLink (J'ai besoins de bêta testeur pour ceci...Envoyez moi un message !!).
 	- [ ] Vérification si l'équipement est en ligne avant d'envoyer une commande.
 	- [ ] Test de l'activation du pulse
+    - [ ] *Si possible* Retour d'état sans Cloud.
+    - [ ] Ajout d'un cron journalier pour récupérer les stat POW et les ajouter à l'historique
 
 
 - V2.0.0 (Bêta)
@@ -23,13 +25,11 @@
     - [x] Ajout d'un démon LAN
     - [x] Ajout de la gestion du démon LAN et Cloud dans la configuration
     - [x] Ajout de 2 voyants d'état des démons dans le panneau de gestion
-    - [ ] Correction du bug des photo manquantes, alors que la photo n'est pas manquante
-    - [ ] *Si possible* Retour d'état sans Cloud.
-    - [ ] Ajout d'un cron journalier pour récupérer les stat POW et les ajouter à l'historique
-    - [ ] Mise a jour de la documentation
-    - [ ] Relance du démon avant synchronisation
-    - [ ] Correction du script pour récupérer les IP
-    - [ ] Ajout d'une case pour forcer le fonctionnement en cloud (Pour par ex. le TH10 ou TH16 qui, suivant la version de firmeware, ne fonctionne pas en LAN)
+    - [x] Correction du bug des photo manquantes, alors que la photo n'est pas manquante
+    - [x] Mise a jour de la documentation
+    - [x] Relance du démon avant synchronisation
+    - [x] Correction du script pour récupérer les IP
+    - [x] Ajout d'une case pour forcer le fonctionnement en cloud (Pour par ex. le TH10 ou TH16 qui, suivant la version de firmeware, ne fonctionne pas en LAN)
 
 
 - V1.1.7 (Bêta)

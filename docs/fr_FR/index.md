@@ -422,6 +422,49 @@ Ces commandes sont essentiels pour le bon fonctionnement du plugin, il ne faut s
 Vous avez aussi des commandes info, une pour l’état de la lumière, l'autre pour donner la vitesse du ventilateur. 
 
  
+**LAN**
+=======
+ 
+Un fonctionnalité LAN est en cours de développement, pour l'instant seul le ON et OFF fonctionne.
+
+Pour activer le LAN : 
+
+Vous povuez l'activer grace au bouton "Activer LAN" dans le panneau de gestion du plugin.
+![ifan_nps.png](../images/activer_lan.png)  
+
+> **IMPORTANT** 
+> 
+> Il faut impérativement que le démon Cloud soit activé et OK
+> La conection est nécéssaire pour faire le lien entre l'adresse IP et l'équipement
+> Ce choix à été fait pour que vous n'ayez aucune infos à chercher vous même, le plugin s'occupe de tout.
+
+
+
+Une fois le LAN activer, le démon LAN sera lancé et vous voyez aparaitre un logo au dessus du nom des équipements.
+![ifan_nps.png](../images/logo_lan.png)  
+
+S'il n'y a pas de logo, c'est que soit l'équipement n'est pas contrôlable par LAN, soit il était déconnecté de votre réseau au moment de l'activation du LAN.
+Si aucun de vos équipements n'a le logo, c'est que l'activation s'est mal passé, désactivez et réactivez le LAN.
+
+> **IMPORTANT** 
+
+>  Lors de l'activation du LAN, le plugin va scanner votre réseau pour récupérer les adresse IP des equipements connecté à votre réseau.
+>  Le scan se fait sur la même plage d'IP que votre Jeedom/
+> Exemple : Si l'adresse IP de votre Jeedom est 192.168.1.10, le plugin va scanner uniquement la plage 192.168.1...
+
+Dans chaques équipement, vous pouvez le forcer à passer par le cloud, si le firmeware ne support pas le LAN par exemple.
+
+![ifan_nps.png](../images/forcer_cloud.png)  
+
+Une fois le serveur LAN lancé, et que le logo LAN est bien visible, vous pouvez couper le CLOUD
+
+> **ATTENTION !** 
+> En désactivant le cloud, ne pourrez uniquement faire ON et OFF, il n'y a plus de retour d'état, plus de remonté de tempéraure, puissance ou autres mesures !
+
+
+
+
+
 
 Changelog 
 
