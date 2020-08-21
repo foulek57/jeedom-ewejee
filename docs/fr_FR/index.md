@@ -4,7 +4,7 @@ eWeJee
 ============================== 
 
  
-# Version 2.0 en Bêta, celle-ci ajoute une possibilitée de contrôler les équipements en LAN, sans passer par le cloud !
+# Version 2.0 en Bêta, celle-ci ajoute une possibilitée de contrôler les équipements en LAN, sans passer par le cloud ! Plus d'info ICI : https://github.com/foulek57/jeedom-ewejee/blob/master/docs/fr_FR/index.md#lan
 
 Je vais ajouter cette possibilitée, de sorte à ce que vous ayez juste à cliquer sur un bouton sans entrer une seul adresse IP ou autre, afin de se simplifier la vie ;-)
 
