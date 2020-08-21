@@ -29,7 +29,7 @@
     - [ ] Mise a jour de la documentation
     - [ ] Relance du démon avant synchronisation
     - [ ] Correction du script pour récupérer les IP
-    - [ ] Ajout d'une case pour forcer le fonctionnement en cloud (Pour par ex. le TH10 ou TH16 qui, suivant la version de firmeware, ne fonctionne pas en cloud)
+    - [ ] Ajout d'une case pour forcer le fonctionnement en cloud (Pour par ex. le TH10 ou TH16 qui, suivant la version de firmeware, ne fonctionne pas en LAN)
 
 
 - V1.1.7 (Bêta)
