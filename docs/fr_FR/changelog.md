@@ -9,7 +9,9 @@
     - [ ] Ajout d'un cron journalier pour récupérer les stat POW et les ajouter à l'historique
 
 
-- V2.0.0 (Bêta)
+- ../09/2020 : V2.0.0 (Stable)
+
+- 21/08/2020 : V2.0.0 (Bêta)
     - [x] **Ajout d'une fonctionalité LAN pour les équipements compatible.**
     - [x] Ajout des stat du POW sur le mois (Final)
     - [x] Ajout d'un systeme de sauvgarde des données de conso du POW pas mois et annees
