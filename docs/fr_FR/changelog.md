@@ -13,6 +13,23 @@
     - [x] Ajout d'un systeme de sauvgarde des données de conso du POW pas mois et annees
     - [x] Ajout de 16 commandes pour le rf bridge portant le total a 32
     - [x] Amélioration visuel divers
+    - [x] Correction de bugs sur la fonctionalitée LAN
+    - [x] Remonté des noms pour le RFBridge
+    - [x] Correction de bugs dans la synchronisation
+    - [x] Modification du cron pour le POW (ID unique par POW pour éviter les conflits)
+    - [x] Correction d'un bug dans l'installation des dépendances
+    - [x] Déplacement des logs détaillés dans un fichier .txt, pour plus de visibilitée en cas d'érreur
+    - [x] Suppression d'un fichier provoquant un bug dans l'installation des dépendances
+    - [x] Ajout d'un démon LAN
+    - [x] Ajout de la gestion du démon LAN et Cloud dans la configuration
+    - [x] Ajout de 2 voyants d'état des démons dans le panneau de gestion
+    - [ ] Correction du bug des photo manquantes, alors que la photo n'est pas manquante
+    - [ ] *Si possible* Retour d'état sans Cloud.
+    - [ ] Ajout d'un cron journalier pour récupérer les stat POW et les ajouter à l'historique
+    - [ ] Mise a jour de la documentation
+    - [ ] Relance du démon avant synchronisation
+    - [ ] Correction du script pour récupérer les IP
+    - [ ] Ajout d'une case pour forcer le fonctionnement en cloud (Pour par ex. le TH10 ou TH16 qui, suivant la version de firmeware, ne fonctionne pas en cloud)
 
 
 - V1.1.7 (Bêta)
