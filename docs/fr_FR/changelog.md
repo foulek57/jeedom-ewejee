@@ -33,6 +33,7 @@
     - [x] Relance du démon avant synchronisation
     - [x] Correction du script pour récupérer les IP
     - [x] Ajout d'une case pour forcer le fonctionnement en cloud (Pour par ex. le TH10 ou TH16 qui, suivant la version de firmeware, ne fonctionne pas en LAN)
+    - [x] Ajout images : POW + Camera
 
 
 - V1.1.7 (Bêta)
