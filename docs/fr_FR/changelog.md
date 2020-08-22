@@ -7,6 +7,7 @@
 	- [ ] Test de l'activation du pulse
     - [ ] *Si possible* Retour d'état sans Cloud.
     - [ ] Ajout d'un cron journalier pour récupérer les stat POW et les ajouter à l'historique
+    - [ ] RF Bridge - Ajout automatique si nouveau equipement détecté
 
 
 - ../09/2020 : V2.0.0 (Stable)
