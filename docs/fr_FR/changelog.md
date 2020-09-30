@@ -10,7 +10,21 @@
     - [ ] RF Bridge - Ajout automatique si nouveau equipement détecté
 
 
-- ../09/2020 : V2.0.0 (Stable)
+- ../10/2020 : V2.0.0 (Stable)
+
+- 30/09/2020 : V2.0.0 (Bêta)
+	- [x] Correction de bug de l'instalation des dépendances
+	- [x] Correction de bug sur la récupération des IP et MAC des Sonoff
+	- [x] Ajout logo "LAN" dans l'équipement, quand ce dernier fonctionne en LAN
+	- [x] Correction du bouton "Activation LAN" qui était par défaut activé
+	- [x] Refonte du RFBridge (Il faut supprimer l'équipement et refaire une synchronisation du RFBridge)
+	- [ ] Ajout d'une détection d'un nouvel apareil RF et automatisation de l'ajout d'une nouvelle commande pour ce dernier (A tester)
+	- [x] Modification de la mise à jour des informations des capteurs RF (Info reste enregistré quand une autre capteur se déclence)
+	- [x] Optimisation du démarage du demon (Plus rapide)
+	- [x] Correction des logs
+	- [ ] ...
+	- 
+
 
 - 21/08/2020 : V2.0.0 (Bêta)
     - [x] **Ajout d'une fonctionalité LAN pour les équipements compatible.**
