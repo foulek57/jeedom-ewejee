@@ -7,7 +7,6 @@
 	- [ ] Test de l'activation du pulse
     - [ ] *Si possible* Retour d'état sans Cloud.
     - [ ] Ajout d'un cron journalier pour récupérer les stat POW et les ajouter à l'historique
-    - [ ] Etude du Bridge Zigbee
 
 
 - ../10/2020 : V2.0.0 (Stable)
@@ -22,7 +21,7 @@
 	- [x] Modification de la mise à jour des informations des capteurs RF (Info reste enregistré quand une autre capteur se déclence)
 	- [x] Optimisation du démarage du demon (Plus rapide)
 	- [x] Correction des logs
-	- [ ] 
+	- [x] Ajout de la compatibilitée des capteur de porte/fenètre sonoff (Egalement Zigbee)
 	- 
 
 
