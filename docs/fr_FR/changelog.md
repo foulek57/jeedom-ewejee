@@ -17,11 +17,12 @@
 	- [x] Ajout logo "LAN" dans l'équipement, quand ce dernier fonctionne en LAN
 	- [x] Correction du bouton "Activation LAN" qui était par défaut activé
 	- [x] Refonte du RFBridge (Il faut supprimer l'équipement et refaire une synchronisation du RFBridge)
-	- [ ] Ajout d'une détection d'un nouvel apareil RF et automatisation de l'ajout d'une nouvelle commande pour ce dernier (A tester)
+	- [x] Ajout d'une détection d'un nouvel apareil RF et automatisation de l'ajout d'une nouvelle commande pour ce dernier
 	- [x] Modification de la mise à jour des informations des capteurs RF (Info reste enregistré quand une autre capteur se déclence)
 	- [x] Optimisation du démarage du demon (Plus rapide)
 	- [x] Correction des logs
 	- [x] Ajout de la compatibilitée des capteur de porte/fenètre sonoff (Egalement Zigbee)
+	- [x] Correction du bug de la case qui ne restait pas coché pour forcer le cloud
 	- 
 
 
