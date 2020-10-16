@@ -42,7 +42,7 @@ Pour savoir comment envoyer des logs sur le community Jeedom, @akenad l’a expl
 
 > 
 
-> Le pugin passe par le cloud eWeLink, mais une fonctionalité LAN (limité à ON/OFF pour le moment) est disponible en Bêta.
+> Le plugin passe par le cloud eWeLink, mais une fonctionalité LAN (limité à ON/OFF pour le moment) est disponible en Bêta.
 
  
 
