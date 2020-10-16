@@ -4,9 +4,9 @@ eWeJee
 ============================== 
 
  
-# Version 2.0 en Bêta, celle-ci ajoute une possibilitée de contrôler les équipements en LAN, sans passer par le cloud ! Plus d'info ICI : https://github.com/foulek57/jeedom-ewejee/blob/master/docs/fr_FR/index.md#lan
+# Version 2.0 en Bêta, celle-ci ajoute une possibilité de contrôler les équipements en LAN, sans passer par le cloud ! Plus d'info ICI : https://github.com/foulek57/jeedom-ewejee/blob/master/docs/fr_FR/index.md#lan
 
-Je vais ajouter cette possibilitée, de sorte à ce que vous ayez juste à cliquer sur un bouton sans entrer une seul adresse IP ou autre, afin de se simplifier la vie ;-)
+Je vais ajouter cette possibilité, de telle  sorte que vous n'ayez juste à cliquer sur un bouton sans entrer une seule adresse IP ou autre, afin de se simplifier la vie ;-)
 
 Description
 ----------- 
@@ -17,11 +17,11 @@ Ce plugin a pour but d’intégrer à Jeedom TOUT vos équipements compatible eW
 
 Beaucoup d’appareils sont compatibles avec eWeLink, notamment ceux de la marque Sonoff, très connue pour les appareils peu coûteux et relativement fiable. 
 
-La liste ne s’arrête pas aux Sonoff, beaucoup de fabriquant chinois produisent des appareils compatibles avec l'application eWeLink comme par exemple des humidificateurs, bandes led etc… 
+La liste ne s’arrête pas aux Sonoff, beaucoup de fabriquants Chinois produisent des appareils compatibles avec l'application eWeLink comme par exemple des humidificateurs, bandes led etc… 
 
-Grace à un bouton de synchronisation, un clic et tout vous équipements sont importé dans Jeedom. 
+Grace à un bouton de synchronisation, un clic et tout vos équipements sont importés dans Jeedom. 
 
-Il faut en amont configurer votre appareil avec l'application eWeLink. Pour cela, reportez vous à la notice fournie avec votre appareil. 
+Il faut en amont configurer votre appareil avec l'application eWeLink. Pour cela, reportez-vous à la notice fournie avec votre appareil. 
 
 Le plugin est conçu pour être utilisé sans avoir de connaissances particulières tout est codé pour vous simplifier la mise en place. 
 
@@ -50,19 +50,19 @@ Pour savoir comment envoyer des logs sur le community Jeedom, @akenad l’a expl
 
 >  
 
-> eWeLink n'accepte qu'une seul connection par compte, donc dès que vous lancer le plugin, cela va déconnecter votre smartphone et vice versa. 
+> eWeLink n'accepte qu'une seule connection par compte, donc dès que vous lancez le plugin, cela va déconnecter votre smartphone et vice versa. 
 
-> Pour palier à cela, il est conseillé de faire une compte eWeLink pour Jeedom, vous pouvez partager vos équipements entre compte 
+> Pour palier à cela, il est conseillé de faire un compte eWeLink pour Jeedom, vous pouvez partager vos équipements entre comptes
 
 > eWeLink.
 > Cela n'impacte pas le LAN.
 
-Partage d'apareils entre comptes eWeLink
+Partage d'appareils entre comptes eWeLink
 -----------------------------------------
 
 <img src="../images/share/1.png" alt="" width="500"/>
 
-Selectionnez un de vos apareil
+Selectionnez un de vos appareils
 
 <img src="../images/share/2.png" alt="" width="500"/>
 
@@ -84,7 +84,7 @@ Sur le second apareil où vous avez eWeLink (le second compte), vous recevez une
 <img src="../images/share/6.png" alt="" width="500"/>
 
 
-Et voila tous les apareils ont été partagé.
+Et voila tous les appareils ont été partagés.
 
 
 ![ewejee icon](../images/ewejee_icon.png) 
@@ -123,14 +123,14 @@ Suite à cela vous arriverez sur cette page :
 
  
 
-Sur cette page vous devez entrez votre login et mot de passe de l’application eWeLink. 
+Sur cette page vous devez entrer votre login et mot de passe de l’application eWeLink. 
 
-L'acces interne bloque, est dans le cas où vous avez coupé l'accès interne, si vous n'avez rien fait, laissez sur non.
+L'accès interne bloque, est dans le cas où vous avez coupé l'accès interne, si vous n'avez rien fait, laissez sur non.
 
-Etat binaire souhaité, mettez oui si vous voulez que on = 1 et off = 0, pratique pour les widget.
+Etat binaire souhaité, mettez oui si vous voulez que on = 1 et off = 0, pratique pour les widgets.
 
 > **Important** 
-> Si vous changez l'état binaire, il faudra supprimer tous les équipements et refaire une synchropnisation, sinon il faudra changer tous les type de commandes info.
+> Si vous changez l'état binaire, il faudra supprimer tous les équipements et refaire une synchronisation, sinon il faudra changer tous les types de commandes info.
 >
 ![configuration](../images/configuration_ip_jeedom.png) 
 
@@ -148,21 +148,21 @@ L’installation n'est pas très verbeux, il est donc normal que l'installation 
 
  
 
-Si vous avez le message "Echec d'authentification, veillez vérifier vos identifiants" :  
+Si vous avez le message "Echec d'authentification, veuillez vérifier vos identifiants" :  
 
  
 
 - Le mot de passe ne peut pas contenir de signe "$". 
 
-- Vérifiez vos identifiants, le login doit être l'adresse mail utilisé dans l’application eWeLink. 
+- Vérifiez vos identifiants, le login doit être l'adresse mail utilisée dans l’application eWeLink. 
 
 - Si vos identifiants sont correct, vérifiez que le démon est bien lancé et que les dépendances sont "OK". 
 
-- Regardez les log "eWeJee_node" dans la section "Logs et surveillance", les dernières lignes vous indique l’érreur, si vous ne la comprenez pas, contactez moi sur community ou GitHub. 
+- Regardez les log "eWeJee_node" dans la section "Logs et surveillance", les dernières lignes vous indiquent l’erreur, si vous ne la comprenez pas, contactez-moi sur community ou GitHub. 
 
  
 
-Si vous avez une erreur qui vous demande de vérifier le port, vérifiez la configuration dans l’onglet reseau, vérifiez l’accès interne et externe. 
+Si vous avez une erreur qui vous demande de vérifier le port, vérifiez la configuration dans l’onglet réseau, vérifiez l’accès interne et externe. 
 
  
 
@@ -171,7 +171,7 @@ Le plugin
 
  
 
-Rendez vous dans le menu Plugins &gt; objets connectés pour retrouver le plugin. 
+Rendez-vous dans le menu Plugins &gt; objets connectés pour retrouver le plugin. 
 
  
 
@@ -187,7 +187,7 @@ Sur cette page, il vous suffit maintenant de cliquer sur le petit plus au-dessus
 
  
 
-Une fois que c'est fait si vous ne voyez pas les équipements, rechargez la page (CTRL + F5). 
+Cela fait si vous ne voyez pas les équipements, rechargez la page (CTRL + F5). 
 
  
 
@@ -212,9 +212,9 @@ Dans la partie gestion vous avez :
 
 >  
 
->Une détection des équipements déjà connus à été ajouté, donc plus besoin de tout supprimer. 
+>Une détection des équipements déjà connus à été ajoutée, donc plus besoin de tout supprimer. 
 
->Si vous avez un équipement à actualiser, supprimer le. 
+>Si vous avez un équipement à actualiser, supprimez-le. 
 
 -Configuration : Pour voir la configuration du plugin… 
 
@@ -256,7 +256,7 @@ Dans l’onglet équipement vous retrouver :
 
 - Le modèle 
 
-- L’état, s’il est en ligne ou non (Information actualisé quand une commande est lancée.) 
+- L’état, s’il est en ligne ou non (Information actualisée quand une commande est lancée.) 
 
 - La photo de l’équipement. 
 
@@ -270,7 +270,7 @@ Dans l’onglet équipement vous retrouver :
 
 > Vous pouvez modifier le nom cela n'a aucun impact. 
 
-> La case de commentaire peut-être utilisé comme vous le souhaitez, cela vous permet de mettre un commentaire à votre équipement. 
+> La case de commentaire peut-être utilisée comme vous le souhaitez, cela vous permet de mettre un commentaire à votre équipement. 
 
  
 
@@ -285,9 +285,9 @@ La commande info n’est pas binaire.
 
  
 
-- La mise a jour se fait automatiquement dès qu'un changement d'état est effectué (même en allumant un interrupteur sans passer par l'appli ou le plugin par exemple) 
+- La mise à jour se fait automatiquement dès qu'un changement d'état est effectué (même en allumant un interrupteur sans passer par l'appli ou le plugin par exemple) 
 
-- Pour les relais utilisé en "contact sec", l'état de change pas car celui-ci envoi un "push" sur le relai. 
+- Pour les relais utilisés en "contact sec", l'état de change pas car celui-ci envoi un "push" sur le relais. 
 
  
 
@@ -295,9 +295,9 @@ La commande info n’est pas binaire.
 
 >  
 
-> Il est normal de voir plusieurs channel et état même si votre equipement n'a qu'un channel, car dans la synchronisation  
+> Il est normal de voir plusieurs channel et états même si votre équipement n'a qu'un channel, car dans la synchronisation  
 
-> on récupère tous les paramètres et sonoff a 4 paramètres, et ceci même pour les équipements qui n'en ont qu'un seul. 
+> on récupère tous les paramètres et sonoff à 4 paramètres, et ceci même pour les équipements qui n'en n'ont qu'un seul. 
 
 > Vous pouvez supprimer ceux qui sont en trop, sauf si le nom est "Ne pas suppr.", dans ce cas cet équipement est obligatoire pour le fonctionnement, vous pouvez décocher la case "Afficher" pour l'enlever du widget. 
 
@@ -318,7 +318,7 @@ Commandes
 
 - Options : Permet d'afficher ou de cacher la commande, et d'historiser les commandes info. 
 
-- Unitée : Permet de mettre une unitée (°C, %...). 
+- Unité : Permet de mettre une unité (°C, %...). 
 
 - Action : Accès à la configuration de la commande. 
 
@@ -329,9 +329,9 @@ Compatibilité
 
  
 
-Le plugin est fait de façon a être compatible avec la majorité des équipements. 
+Le plugin est fait de façon à être compatible avec la majorité des équipements. 
 
-Une adaptation doit être faites pour certains équipements, comme par exemple l'ifan, le POW, RF Bridge etc... 
+Une adaptation doit être faite pour certains équipements, comme par exemple l'ifan, le POW, RF Bridge etc... 
 
  
 
@@ -378,7 +378,7 @@ Sonoff :
 
  
 
-Si votre équipement n'est pas dans la liste, cela ne veut pas dire qu'il ne sera pas supporté par le plugin, cette liste est celle des équipements testé. 
+Si votre équipement n'est pas dans la liste, cela ne veut pas dire qu'il ne sera pas supporté par le plugin, cette liste est celle des équipements testés. 
 
  
 
@@ -389,11 +389,11 @@ Si vous remarquez qu'un de vos équipements n'est pas fonctionnel ou ne fonction
 Sonoff POW (En cours d'amélioration, cette partie sera mise à jour une fois terminé)
 ==========
 
-Le POW a une commande supplémentaire permettant de faire une remontée des informations de consommation, avec ce bouton, les informations seront remonté pendant 1 minute. 
+Le POW a une commande supplémentaire permettant de faire une remontée des informations de consommation, avec ce bouton, les informations seront remontées pendant 1 minute. 
 
 ![pow_actual](../images/pow_actual.png) 
 
-Il dispose également d'un paramètre cron qui permet de faire l’actualisation a intervalle régulière ou en continu (1 minute) 
+Il dispose également d'un paramètre cron qui permet de faire l’actualisation à intervalles réguliers ou en continu (1 minute) 
 
 ![pow_cron](../images/pow_cron.png) 
 
@@ -401,20 +401,20 @@ Vous avez aussi une commande pour faire remonter les moyennes de consommation du
 
 ![pow_mensuel_btn](../images/pow_mensuel_btn.png)  
 
-Cette information est affiché sous forme de tableau dans l’onglet « Historique POW » 
+Cette information est affichée sous forme de tableau dans l’onglet « Historique POW » 
 
 ![pow_mensuel_btn](../images/pow_mensuel_tb.png)  
 
-Si vous avez des suggestions je serrais ravi de les lire ! 
+Si vous avez des suggestions je serrai ravi de les lire ! 
 
 Sonoff ifan 
 ===========
 
 L'ifan est également spécifique, vous disposez de 4 commandes d'allumage et d'extinction et de 3 commandes pour les 3 vitesses. 
 
-Il se peut que vous avez également des commandes info « ne pas suppr. ». 
+Il se peut que vous ayez également des commandes info « ne pas suppr. ». 
 
-Ces commandes sont essentiels pour le bon fonctionnement du plugin, il ne faut surtout pas les supprimer, en revanche vous pouvez les masquer du widget en décrochant la case « afficher ». 
+Ces commandes sont essentielles pour le bon fonctionnement du plugin, il ne faut surtout pas les supprimer, en revanche vous pouvez les masquer du widget en décochant la case « afficher ». 
 
 ![ifan_nps.png](../images/ifan_nps.png)  
 
@@ -425,7 +425,7 @@ Vous avez aussi des commandes info, une pour l’état de la lumière, l'autre p
 **LAN**
 =======
  
-Un fonctionnalité LAN est en cours de développement, pour l'instant seul le ON et OFF fonctionne.
+Un fonctionnalité LAN est en cours de développement, pour l'instant seul le ON et OFF fonctionnent.
 
 Pour activer le LAN :
 
@@ -438,19 +438,19 @@ Vous pouvez l'activer grâce au bouton "Activer LAN" dans le panneau de gestion 
 > La connexion est nécessaire pour faire le lien entre l'adresse IP et l'équipement
 > Ce choix a été fait pour que vous n'ayez aucune infos à chercher vous-même, le plugin s'occupe de tout.
 
-Une fois le LAN activer, le démon LAN sera lancé et vous voyez apparaître un logo au-dessus du nom des équipements.
+Une fois le LAN activé, le démon LAN sera lancé et vous voyez apparaître un logo au-dessus du nom des équipements.
 ![ifan_nps.png](../images/logo_lan.png)
 
 S'il n'y a pas de logo, c'est que soit l'équipement n'est pas contrôlable par LAN, soit il était déconnecté de votre réseau au moment de l'activation du LAN.
-Si aucun de vos équipements n'a le logo, c'est que l'activation s'est mal passé, désactivez et réactivez le LAN.
+Si aucun de vos équipements n'a le logo, c'est que l'activation s'est mal passée, désactivez et réactivez le LAN.
 
 > **IMPORTANT**
 
-> Lors de l'activation du LAN, le plugin va scanner votre réseau pour récupérer les adresse IP des équipements connecté à votre réseau.
+> Lors de l'activation du LAN, le plugin va scanner votre réseau pour récupérer les adresse IP des équipements connectés à votre réseau.
 > Le scan se fait sur la même plage d'IP que votre Jeedom/
 > Exemple : Si l'adresse IP de votre Jeedom est 192.168.1.10, le plugin va scanner uniquement la plage 192.168.1...
 
-Dans chaque équipement, vous pouvez le forcer à passer par le cloud, si le firmware ne support pas le LAN par exemple.
+Dans chaque équipement, vous pouvez le forcer à passer par le cloud, si le firmware ne supporte pas le LAN par exemple.
 
 ![ifan_nps.png](../images/forcer_cloud.png)
 
