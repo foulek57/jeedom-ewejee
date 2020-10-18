@@ -6,7 +6,7 @@
 	- [ ] Vérification si l'équipement est en ligne avant d'envoyer une commande.
 	- [ ] Test de l'activation du pulse
     - [ ] *Si possible* Retour d'état sans Cloud.
-    - [ ] Ajout d'un cron journalier pour récupérer les stat POW et les ajouter à l'historique
+    - [ ] Ajout d'un cron journalier pour récupérer les stats POW et les ajouter à l'historique
 
 
 - ../10/2020 : V2.0.0 (Stable)
@@ -29,12 +29,12 @@
 - 21/08/2020 : V2.0.0 (Bêta)
     - [x] **Ajout d'une fonctionalité LAN pour les équipements compatible.**
     - [x] Ajout des stats du POW sur le mois (Final)
-    - [x] Ajout d'un système de sauvegarde des données de conso du POW par mois et annees
+    - [x] Ajout d'un système de sauvegarde des données de conso du POW par mois et années
     - [x] Ajout de 16 commandes pour le rf bridge portant le total à 32
     - [x] Amélioration visuelles diverses
-    - [x] Correction de bugs sur la fonctionalité LAN
+    - [x] Correction d'un bug sur la fonctionalité LAN
     - [x] Remontée des noms pour le RFBridge
-    - [x] Correction de bugs dans la synchronisation
+    - [x] Correction d'un bug dans la synchronisation
     - [x] Modification du cron pour le POW (ID unique par POW pour éviter les conflits)
     - [x] Correction d'un bug dans l'installation des dépendances
     - [x] Déplacement des logs détaillés dans un fichier .txt, pour plus de visibilité en cas d'erreur
@@ -79,7 +79,7 @@
 - 16/01/2020 : V1.1.5 (Bêta)
 	- [x] Récupération de l'adresse ip et port interne et externe
 	- [x] Ajout de la possibilité de faire tourner le plugin en SSL (https) *Pour pouvoir fermer le port 80*
-  	- [x] Correction des bogues sur l'ifan.
+  	- [x] Correction des bugs sur l'ifan.
 	- [x] Amélioration de la réactivité sur l'iFan.
 	- [x] Ajout du changement de couleur du "Ultrasonic Humidifier" AGW-D7 (WI16) *Merci à kubico29*
 
@@ -96,7 +96,7 @@
 - 22/12/2019 : V1.1.3 (Bêta)
 	- [x] Ajout du "Ultrasonic Humidifier" AGW-D7 (WI16) *Merci à kubico29*
 	- [x] Amélioration du script d'installation des dépendances.
-	- [x] Résolution du problème d'installation sur Debian 9
+	- [x] Résolution du problème d'installation sur Debian stretch -> 9.XX
 	- [x] Ajout de la possibilité de modifier le port du localhost *Merci à Vincent*
 	- [x] Ajout d'un bouton pour ajouter une commande "action" par channel pour avoir un "ON" et un "OFF" pour les assistant (Google, Alexa....).
 
