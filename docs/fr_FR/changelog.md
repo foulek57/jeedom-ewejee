@@ -19,17 +19,17 @@
 	- [x] Refonte du RFBridge (Il faut supprimer l'équipement et refaire une synchronisation du RFBridge)
 	- [x] Ajout d'une détection d'un nouvel appareil RF et automatisation de l'ajout d'une nouvelle commande pour ce dernier
 	- [x] Modification de la mise à jour des informations des capteurs RF (Info reste enregistrée quand un autre capteur se déclenche)
-	- [x] Optimisation du démmarage du demon (Plus rapide)
+	- [x] Optimisation du démarrage du demon (Plus rapide)
 	- [x] Correction des logs
-	- [x] Ajout de la compatibilité des capteurs de porte/fenètre sonoff (Egalement Zigbee)
+	- [x] Ajout de la compatibilité des capteurs de porte/fenëtre sonoff (également Zigbee)
 	- [x] Correction du bug de la case qui ne restait pas cochée pour forcer le cloud
-	- 
+	
 
 
 - 21/08/2020 : V2.0.0 (Bêta)
     - [x] **Ajout d'une fonctionalité LAN pour les équipements compatible.**
     - [x] Ajout des stats du POW sur le mois (Final)
-    - [x] Ajout d'un système de sauvegarde des données de conso du POW par mois et annees
+    - [x] Ajout d'un système de sauvegarde des données de conso du POW par mois et années
     - [x] Ajout de 16 commandes pour le rf bridge portant le total à 32
     - [x] Amélioration visuelles diverses
     - [x] Correction de bugs sur la fonctionalité LAN
@@ -136,15 +136,15 @@
 	- [x] Ajout de la mise à jour de l'état quand il est changé hors plugin.
 	- [x] Refonte complète du script, passage en POO pour une meilleure gestion du moteur du plugin.
 	- [x] Refonte complète du serveur : 
-	- [x] Ajout de la région en 'eu' (Pour etre informé d'un changement d'état).
+	- [x] Ajout de la région en 'eu' (Pour être informé d'un changement d'état).
 	- [x] Ajout d'une détection en cas de déconnexion au serveur eWeLink.
 	- [x] Ajout de l'envoi des données en format JSON vers Jeedom.
-	- [x] Fermeture de la connexion eWeLink lors du redémmarage du démon (Sinon on reçoit les infos plusieurs fois)
+	- [x] Fermeture de la connexion eWeLink lors du redémarrage du demon (Sinon on reçoit les infos plusieurs fois)
 	- [x] Ajout d'un ping et réponse au pong de eWeLink afin de garder la connexion ouverte.
 	- [x] Mise à jour du script d'installation des dépendances.
 	- [x] Ajout de la remonté de : 
 	- [x] Température
-	- [x] Humiditée
+	- [x] Humidité
 	- [x] Ampères
 	- [x] Voltage
 	- [x] POW
