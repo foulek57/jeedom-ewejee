@@ -6,16 +6,18 @@ eWeJee
  
 # Version 2.0 en Bêta, celle-ci ajoute une possibilité de contrôler les équipements en LAN, sans passer par le cloud ! Plus d'info ICI : https://github.com/foulek57/jeedom-ewejee/blob/master/docs/fr_FR/index.md#lan
 
-Je vais ajouter cette possibilité, de telle  sorte que vous n'ayez juste qu'à cliquer sur un bouton sans entrer une seule adresse IP ou autre, afin de se simplifier la vie ;-)
+
+Je vais ajouter cette possibilité, de telle  sorte que vous n'ayez juste à cliquer sur un bouton sans entrer une seule adresse IP ou autre, afin de simplifier la procédure ;-)
+
 
 Description
 ----------- 
 
- 
 
-Ce plugin a pour but d’intégrer à Jeedom TOUS vos équipements compatible eWeLink sans les flasher. 
+Ce plugin a pour but d’intégrer à Jeedom TOUS vos équipements compatibles eWeLink sans les flasher. 
+======
 
-Beaucoup d’appareils sont compatibles avec eWeLink, notamment ceux de la marque Sonoff, très connue pour les appareils peu coûteux et relativement fiable. 
+Beaucoup d’appareils sont compatibles avec eWeLink, notamment ceux de la marque Sonoff, très connues pour les appareils peu coûteux et relativement fiable. 
 
 La liste ne s’arrête pas aux Sonoff, beaucoup de fabriquants Chinois produisent des appareils compatibles avec l'application eWeLink comme par exemple des humidificateurs, bandes led etc… 
 
@@ -84,7 +86,8 @@ Sur le second appareil où vous avez eWeLink (le second compte), vous recevez un
 <img src="../images/share/6.png" alt="" width="500"/>
 
 
-Et voilà tous les appareils ont été partagés.
+
+Vos appareils ont été partagés.
 
 
 ![ewejee icon](../images/ewejee_icon.png) 
@@ -109,13 +112,13 @@ a.  Installation/Création
 
 > 
 
-> Afin d’utiliser le plugin, vous devez le télécharger, l’installer et 
+> Pour d’utiliser le plugin, vous devez le télécharger, l’installer et 
 
-> l’activer comme tout plugin Jeedom. 
+> l’activer comme chaque plugin sous Jeedom. 
 
  
 
-Suite à cela vous arriverez sur cette page : 
+Suite à celà vous arriverez sur cette page : 
 
  
 
@@ -156,8 +159,8 @@ Si vous avez le message "Echec d'authentification, veuillez vérifier vos identi
 
 - Vérifiez vos identifiants, le login doit être l'adresse mail utilisée dans l’application eWeLink. 
 
-- Si vos identifiants sont corrects, vérifiez que le demon est bien lancé et que les dépendances sont "OK". 
 
+- Si vos identifiants sont corrects, vérifiez que le démon est bien lancé et que les dépendances sont "OK". 
 - Regardez les log "eWeJee_node" dans la section "Logs et surveillance", les dernières lignes vous indiquent l’erreur, si vous ne la comprenez pas, contactez-moi sur community ou GitHub. 
 
  
@@ -187,7 +190,7 @@ Sur cette page, il vous suffit maintenant de cliquer sur le petit plus au-dessus
 
  
 
-Cela fait si vous ne voyez pas les équipements, rechargez la page (CTRL + F5). 
+Si vous ne voyez pas les équipements, rechargez la page (CTRL + F5). 
 
  
 
@@ -295,7 +298,7 @@ La commande info n’est pas binaire.
 
 >  
 
-> Il est normal de voir plusieurs channel et états même si votre équipement n'a qu'un channel, car dans la synchronisation  
+> Il est normal de voir plusieurs channels et états même si votre équipement n'a qu'un channel, car dans la synchronisation  
 
 > on récupère tous les paramètres et sonoff à 4 paramètres, et ceci même pour les équipements qui n'en n'ont qu'un seul. 
 
@@ -436,7 +439,7 @@ Vous pouvez l'activer grâce au bouton "Activer LAN" dans le panneau de gestion 
 >
 > Il faut impérativement que le demon Cloud soit activé et OK
 > La connexion est nécessaire pour faire le lien entre l'adresse IP et l'équipement
-> Ce choix a été fait pour que vous n'ayez aucune infos à chercher vous-même, le plugin s'occupe de tout.
+> Ce choix a été fait pour que vous n'ayez aucune info à chercher vous-même, le plugin s'occupe de tout.
 
 Une fois le LAN activé, le demon LAN sera lancé et vous voyez apparaître un logo au-dessus du nom des équipements.
 ![ifan_nps.png](../images/logo_lan.png)
