@@ -6,14 +6,14 @@ eWeJee
  
 # Version 2.0 en Bêta, celle-ci ajoute une possibilité de contrôler les équipements en LAN, sans passer par le cloud ! Plus d'info ICI : https://github.com/foulek57/jeedom-ewejee/blob/master/docs/fr_FR/index.md#lan
 
-Je vais ajouter cette possibilité, de telle  sorte que vous n'ayez juste à cliquer sur un bouton sans entrer une seule adresse IP ou autre, afin de se simplifier la vie ;-)
+Je vais ajouter cette possibilité, de telle  sorte que vous n'ayez juste qu'à cliquer sur un bouton sans entrer une seule adresse IP ou autre, afin de se simplifier la vie ;-)
 
 Description
 ----------- 
 
  
 
-Ce plugin a pour but d’intégrer à Jeedom TOUT vos équipements compatible eWeLink sans les flasher. 
+Ce plugin a pour but d’intégrer à Jeedom TOUS vos équipements compatible eWeLink sans les flasher. 
 
 Beaucoup d’appareils sont compatibles avec eWeLink, notamment ceux de la marque Sonoff, très connue pour les appareils peu coûteux et relativement fiable. 
 
@@ -32,7 +32,7 @@ Le plugin est conçu pour être utilisé sans avoir de connaissances particuliè
 =========
 
 Si vous rencontrez un problème avec le plugin, veuillez créer un nouveau sujet sur <http://community.jeedom.com>
-Veuillez donner le maximum de détail et au minimum les logs
+Veuillez donner le maximum de détails et au minimum les logs
 Pour savoir comment envoyer des logs sur le community Jeedom, @akenad l’a expliqué dans un de ses “Flash” ici :
 <https://community.jeedom.com/t/2440/15>
 
@@ -79,12 +79,12 @@ Cliquez ensuite sur OK.
 
 <img src="../images/share/5.png" alt="" width="500"/>
 
-Sur le second apareil où vous avez eWeLink (le second compte), vous recevez une notifiction, acceptez la.
+Sur le second appareil où vous avez eWeLink (le second compte), vous recevez une notifiction, acceptez la.
 
 <img src="../images/share/6.png" alt="" width="500"/>
 
 
-Et voila tous les appareils ont été partagés.
+Et voilà tous les appareils ont été partagés.
 
 
 ![ewejee icon](../images/ewejee_icon.png) 
@@ -144,7 +144,7 @@ N'oubliez pas de sauvgarder !
 
 > Il faut impérativement attendre 5 minutes après avoir lancé l'installation des dépendances, vous pouvez suivre l’installation avec le log ewejee_dep. 
 
-L’installation n'est pas très verbeux, il est donc normal que l'installation reste bloqué quelques instants à 60%. 
+L’installation n'est pas très verbeux, il est donc normal que l'installation reste bloquée quelques instants à 60%. 
 
  
 
@@ -156,7 +156,7 @@ Si vous avez le message "Echec d'authentification, veuillez vérifier vos identi
 
 - Vérifiez vos identifiants, le login doit être l'adresse mail utilisée dans l’application eWeLink. 
 
-- Si vos identifiants sont correct, vérifiez que le démon est bien lancé et que les dépendances sont "OK". 
+- Si vos identifiants sont corrects, vérifiez que le demon est bien lancé et que les dépendances sont "OK". 
 
 - Regardez les log "eWeJee_node" dans la section "Logs et surveillance", les dernières lignes vous indiquent l’erreur, si vous ne la comprenez pas, contactez-moi sur community ou GitHub. 
 
@@ -171,7 +171,7 @@ Le plugin
 
  
 
-Rendez-vous dans le menu Plugins &gt; objets connectés pour retrouver le plugin. 
+Rendez-vous dans le menu Plugins / Objets connectés pour retrouver le plugin. 
 
  
 
@@ -240,7 +240,7 @@ Vous avez 2 onglets.
 
  
 
-Dans l’onglet équipement vous retrouver :  
+Dans l’onglet équipement vous retrouvez :  
 
  
 
@@ -434,11 +434,11 @@ Vous pouvez l'activer grâce au bouton "Activer LAN" dans le panneau de gestion 
 
 > **IMPORTANT**
 >
-> Il faut impérativement que le démon Cloud soit activé et OK
+> Il faut impérativement que le demon Cloud soit activé et OK
 > La connexion est nécessaire pour faire le lien entre l'adresse IP et l'équipement
 > Ce choix a été fait pour que vous n'ayez aucune infos à chercher vous-même, le plugin s'occupe de tout.
 
-Une fois le LAN activé, le démon LAN sera lancé et vous voyez apparaître un logo au-dessus du nom des équipements.
+Une fois le LAN activé, le demon LAN sera lancé et vous voyez apparaître un logo au-dessus du nom des équipements.
 ![ifan_nps.png](../images/logo_lan.png)
 
 S'il n'y a pas de logo, c'est que soit l'équipement n'est pas contrôlable par LAN, soit il était déconnecté de votre réseau au moment de l'activation du LAN.
