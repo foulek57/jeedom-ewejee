@@ -6,7 +6,7 @@
 	- [ ] Vérification si l'équipement est en ligne avant d'envoyer une commande.
 	- [ ] Test de l'activation du pulse
     - [ ] *Si possible* Retour d'état sans Cloud.
-    - [ ] Ajout d'un cron journalier pour récupérer les stat POW et les ajouter à l'historique
+    - [ ] Ajout d'un cron journalier pour récupérer les stats POW et les ajouter à l'historique
 
 
 - ../10/2020 : V2.0.0 (Stable)
@@ -19,22 +19,22 @@
 	- [x] Refonte du RFBridge (Il faut supprimer l'équipement et refaire une synchronisation du RFBridge)
 	- [x] Ajout d'une détection d'un nouvel appareil RF et automatisation de l'ajout d'une nouvelle commande pour ce dernier
 	- [x] Modification de la mise à jour des informations des capteurs RF (Info reste enregistrée quand un autre capteur se déclenche)
-	- [x] Optimisation du démmarage du demon (Plus rapide)
+	- [x] Optimisation du démarrage du demon (Plus rapide)
 	- [x] Correction des logs
-	- [x] Ajout de la compatibilité des capteurs de porte/fenètre sonoff (Egalement Zigbee)
+	- [x] Ajout de la compatibilité des capteurs de porte/fenëtre sonoff (également Zigbee)
 	- [x] Correction du bug de la case qui ne restait pas cochée pour forcer le cloud
-	- 
+	
 
 
 - 21/08/2020 : V2.0.0 (Bêta)
     - [x] **Ajout d'une fonctionalité LAN pour les équipements compatible.**
     - [x] Ajout des stats du POW sur le mois (Final)
-    - [x] Ajout d'un système de sauvegarde des données de conso du POW par mois et annees
+    - [x] Ajout d'un système de sauvegarde des données de conso du POW par mois et années
     - [x] Ajout de 16 commandes pour le rf bridge portant le total à 32
     - [x] Amélioration visuelles diverses
-    - [x] Correction de bugs sur la fonctionalité LAN
+    - [x] Correction d'un bug sur la fonctionalité LAN
     - [x] Remontée des noms pour le RFBridge
-    - [x] Correction de bugs dans la synchronisation
+    - [x] Correction d'un bug dans la synchronisation
     - [x] Modification du cron pour le POW (ID unique par POW pour éviter les conflits)
     - [x] Correction d'un bug dans l'installation des dépendances
     - [x] Déplacement des logs détaillés dans un fichier .txt, pour plus de visibilité en cas d'erreur
@@ -79,7 +79,7 @@
 - 16/01/2020 : V1.1.5 (Bêta)
 	- [x] Récupération de l'adresse ip et port interne et externe
 	- [x] Ajout de la possibilité de faire tourner le plugin en SSL (https) *Pour pouvoir fermer le port 80*
-  	- [x] Correction des bogues sur l'ifan.
+  	- [x] Correction des bugs sur l'ifan.
 	- [x] Amélioration de la réactivité sur l'iFan.
 	- [x] Ajout du changement de couleur du "Ultrasonic Humidifier" AGW-D7 (WI16) *Merci à kubico29*
 
@@ -96,7 +96,7 @@
 - 22/12/2019 : V1.1.3 (Bêta)
 	- [x] Ajout du "Ultrasonic Humidifier" AGW-D7 (WI16) *Merci à kubico29*
 	- [x] Amélioration du script d'installation des dépendances.
-	- [x] Résolution du problème d'installation sur Debian 9
+	- [x] Résolution du problème d'installation sur Debian stretch -> 9.XX
 	- [x] Ajout de la possibilité de modifier le port du localhost *Merci à Vincent*
 	- [x] Ajout d'un bouton pour ajouter une commande "action" par channel pour avoir un "ON" et un "OFF" pour les assistant (Google, Alexa....).
 
@@ -136,15 +136,15 @@
 	- [x] Ajout de la mise à jour de l'état quand il est changé hors plugin.
 	- [x] Refonte complète du script, passage en POO pour une meilleure gestion du moteur du plugin.
 	- [x] Refonte complète du serveur : 
-	- [x] Ajout de la région en 'eu' (Pour etre informé d'un changement d'état).
+	- [x] Ajout de la région en 'eu' (Pour être informé d'un changement d'état).
 	- [x] Ajout d'une détection en cas de déconnexion au serveur eWeLink.
 	- [x] Ajout de l'envoi des données en format JSON vers Jeedom.
-	- [x] Fermeture de la connexion eWeLink lors du redémmarage du démon (Sinon on reçoit les infos plusieurs fois)
+	- [x] Fermeture de la connexion eWeLink lors du redémarrage du demon (Sinon on reçoit les infos plusieurs fois)
 	- [x] Ajout d'un ping et réponse au pong de eWeLink afin de garder la connexion ouverte.
 	- [x] Mise à jour du script d'installation des dépendances.
 	- [x] Ajout de la remonté de : 
 	- [x] Température
-	- [x] Humiditée
+	- [x] Humidité
 	- [x] Ampères
 	- [x] Voltage
 	- [x] POW
