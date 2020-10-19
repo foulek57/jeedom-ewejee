@@ -5,13 +5,12 @@
 	- [ ] ...Récupération des noms saisis dans l'application eWeLink (J'ai besoin de bêta testeur pour ceci...Envoyez moi un message !!).
 	- [ ] Vérification si l'équipement est en ligne avant d'envoyer une commande.
 	- [ ] Test de l'activation du pulse
-    - [ ] *Si possible* Retour d'état sans Cloud.
-    - [ ] Ajout d'un cron journalier pour récupérer les stats POW et les ajouter à l'historique
+	- [ ] Ajout d'un cron journalier pour récupérer les stats POW et les ajouter à l'historique
 
 
 - ../10/2020 : V2.0.0 (Stable)
 
-- 30/09/2020 : V2.0.0 (Bêta)
+- 19/10/2020 : V2.0.0 (Bêta)
 	- [x] Correction de bug de l'installation des dépendances
 	- [x] Correction de bug sur la récupération des IP et MAC des Sonoff
 	- [x] Ajout logo "LAN" dans l'équipement, quand ce dernier fonctionne en LAN
@@ -23,6 +22,11 @@
 	- [x] Correction des logs
 	- [x] Ajout de la compatibilité des capteurs de porte/fenëtre sonoff (également Zigbee)
 	- [x] Correction du bug de la case qui ne restait pas cochée pour forcer le cloud
+	- [x] **Ajout du retour d'info par LAN**
+	- [x] Changement de la métode de remontée des données POW (LAN)
+	- [x] Ajout de la compatibilitée SZNB-01, SZNB-02, SZNB-03, SZNB-04 (Zigbee)
+	- [x] Ajout de l'image pour le Snoff Dual *Merci à @olive"
+	- [x] Correction de la documentation et changelog *Merci @Tom's et @freetronic*
 	
 
 
